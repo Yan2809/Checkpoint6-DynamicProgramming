@@ -1,0 +1,476 @@
+{
+  "grupo": "G01",
+  "id_instancia": "386e6252eb25",
+  "seed": 1025,
+  "cenario": {
+    "meta_delta": 0.0,
+    "logistica_delta": 0.0,
+    "orcamento_delta": 0.0,
+    "remover_sku": []
+  },
+  "brute_force_vs_ga": [
+    {
+      "metodo": "Brute Force (ótimo)",
+      "caixa": 308691.17,
+      "gap_pct": 0.0,
+      "tempo_ms": 4.2351010000629685,
+      "memoria_pico_KiB": 9.203125,
+      "avaliacoes": 18882,
+      "viavel": true,
+      "politica": "1.00 1.10 1.00 1.10 1.10 1.00 1.10 0.95 1.00 1.10"
+    },
+    {
+      "metodo": "GA config A",
+      "caixa": 303527.08,
+      "gap_pct": 1.672898579726783,
+      "tempo_ms": 19.32203799992749,
+      "memoria_pico_KiB": 35.03125,
+      "avaliacoes": 2848,
+      "viavel": true,
+      "politica": "1.10 1.10 1.00 1.05 1.10 1.00 1.10 0.95 1.00 1.10"
+    },
+    {
+      "metodo": "GA config B",
+      "caixa": 308691.17,
+      "gap_pct": 1.8856276460739008e-14,
+      "tempo_ms": 34.05800400003045,
+      "memoria_pico_KiB": 73.9375,
+      "avaliacoes": 7908,
+      "viavel": true,
+      "politica": "1.00 1.10 1.00 1.10 1.10 1.00 1.10 0.95 1.00 1.10"
+    }
+  ],
+  "configs_ga": [
+    {
+      "config": "A",
+      "populacao": 40,
+      "mutacao": 0.02,
+      "torneio": 2,
+      "elitismo": 1,
+      "seeds": 5,
+      "caixa_melhor": 619309.0397515002,
+      "caixa_medio": 617154.8577535001,
+      "caixa_desvio": 1781.438838573893,
+      "geracoes_media": 150.2,
+      "geracao_do_melhor": 65,
+      "avaliacoes": 4915,
+      "tempo_medio_ms": 41.774614000041765,
+      "memoria_pico_KiB": 91.390625
+    },
+    {
+      "config": "B",
+      "populacao": 120,
+      "mutacao": 0.05,
+      "torneio": 3,
+      "elitismo": 2,
+      "seeds": 5,
+      "caixa_melhor": 619643.1983035002,
+      "caixa_medio": 619579.7151554001,
+      "caixa_desvio": 95.23622248436614,
+      "geracoes_media": 164.8,
+      "geracao_do_melhor": 75,
+      "avaliacoes": 16050,
+      "tempo_medio_ms": 105.61478540000735,
+      "memoria_pico_KiB": 203.484375
+    }
+  ],
+  "ga_config_escolhida": "B",
+  "politica_precos": {
+    "Q1-001": "1.10",
+    "Q1-002": "1.10",
+    "Q1-003": "1.10",
+    "Q1-004": "1.00",
+    "Q1-005": "1.10",
+    "Q1-006": "1.10",
+    "Q1-007": "1.10",
+    "Q1-008": "1.10",
+    "Q1-009": "1.00",
+    "Q1-010": "0.95",
+    "Q1-011": "1.10",
+    "Q1-012": "0.95",
+    "Q1-013": "0.95",
+    "Q1-014": "1.00",
+    "Q1-015": "1.00",
+    "Q1-016": "1.10",
+    "Q1-017": "0.85",
+    "Q1-018": "1.05",
+    "Q1-019": "1.10",
+    "Q1-020": "1.00",
+    "Q1-021": "0.95",
+    "Q1-022": "1.10",
+    "Q1-023": "1.10",
+    "Q1-024": "0.95",
+    "Q1-025": "1.10",
+    "Q1-026": "1.00",
+    "Q1-027": "1.00",
+    "Q1-028": "suspenso",
+    "Q1-029": "1.10",
+    "Q1-030": "1.10"
+  },
+  "greedy": {
+    "tempo_s": 0.00037402600003133557,
+    "memoria_pico_KiB": 14.009765625,
+    "decisoes": [
+      {
+        "sku": "Q1-018",
+        "incentivo": 0.05,
+        "razao": 2.142,
+        "delta_caixa_bruto": 2090.16,
+        "delta_gasto": 975.85,
+        "saldo_restante": 83600.18
+      },
+      {
+        "sku": "Q1-008",
+        "incentivo": 0.05,
+        "razao": 1.831,
+        "delta_caixa_bruto": 4855.86,
+        "delta_gasto": 2651.35,
+        "saldo_restante": 80948.84
+      },
+      {
+        "sku": "Q1-016",
+        "incentivo": 0.05,
+        "razao": 1.702,
+        "delta_caixa_bruto": 1937.98,
+        "delta_gasto": 1138.32,
+        "saldo_restante": 79810.52
+      },
+      {
+        "sku": "Q1-025",
+        "incentivo": 0.05,
+        "razao": 1.45,
+        "delta_caixa_bruto": 577.63,
+        "delta_gasto": 398.41,
+        "saldo_restante": 79412.11
+      },
+      {
+        "sku": "Q1-015",
+        "incentivo": 0.05,
+        "razao": 1.334,
+        "delta_caixa_bruto": 1610.81,
+        "delta_gasto": 1207.87,
+        "saldo_restante": 78204.24
+      },
+      {
+        "sku": "Q1-016",
+        "incentivo": 0.1,
+        "razao": 1.208,
+        "delta_caixa_bruto": 2260.97,
+        "delta_gasto": 1872.44,
+        "saldo_restante": 76331.8
+      },
+      {
+        "sku": "Q1-002",
+        "incentivo": 0.05,
+        "razao": 1.199,
+        "delta_caixa_bruto": 2011.14,
+        "delta_gasto": 1677.57,
+        "saldo_restante": 74654.23
+      }
+    ]
+  },
+  "resultado_final": {
+    "receita_90d": 3235710.75,
+    "caixa_operacional_bruto": 634987.75,
+    "gasto_incentivos": 9921.8,
+    "caixa_operacional_liquido": 625065.95,
+    "margem_contribuicao_pct": 19.32,
+    "unidades_vendidas": 4850,
+    "estoque_inicial_unid": 5565,
+    "estoque_remanescente_unid": 715,
+    "estoque_remanescente_valor_custo": 358019.19,
+    "giro_valor_custo_pct": 85.22,
+    "meta_caixa_90d": 479846.07,
+    "meta_atingida": true,
+    "folga_ou_insuficiencia_meta": 145219.88,
+    "divida_total_90d": 440645.43,
+    "cobertura_divida_pct": 141.85,
+    "orcamento_promocional": 84576.03,
+    "orcamento_usado": 9921.8,
+    "orcamento_usado_pct": 11.73,
+    "skus_com_desconto": 6,
+    "limite_skus_com_desconto": 12,
+    "skus_suspensos": [
+      "Q1-028"
+    ]
+  },
+  "politica_atual": {
+    "receita_90d": 3102874.38,
+    "caixa_operacional_bruto": 546248.68,
+    "gasto_incentivos": 0.0,
+    "caixa_operacional_liquido": 546248.68,
+    "margem_contribuicao_pct": 17.6,
+    "unidades_vendidas": 4709,
+    "estoque_inicial_unid": 5565,
+    "estoque_remanescente_unid": 856,
+    "estoque_remanescente_valor_custo": 383695.41,
+    "giro_valor_custo_pct": 84.16,
+    "meta_caixa_90d": 479846.07,
+    "meta_atingida": true,
+    "folga_ou_insuficiencia_meta": 66402.61,
+    "divida_total_90d": 440645.43,
+    "cobertura_divida_pct": 123.97,
+    "orcamento_promocional": 84576.03,
+    "orcamento_usado": 0.0,
+    "orcamento_usado_pct": 0.0,
+    "skus_com_desconto": 0,
+    "limite_skus_com_desconto": 12,
+    "skus_suspensos": [
+      "Q1-028"
+    ]
+  },
+  "desempenho": {
+    "desempenho": [
+      {
+        "algoritmo": "Brute Force (DFS)",
+        "n": 6,
+        "espaco": 480.0,
+        "tempo_s": 8.117400000173802e-05,
+        "memoria_KiB": 5.1796875,
+        "geracoes": NaN,
+        "tempo_por_geracao_ms": NaN
+      },
+      {
+        "algoritmo": "Brute Force (DFS)",
+        "n": 8,
+        "espaco": 7200.0,
+        "tempo_s": 0.00021285799994075205,
+        "memoria_KiB": 8.921875,
+        "geracoes": NaN,
+        "tempo_por_geracao_ms": NaN
+      },
+      {
+        "algoritmo": "Brute Force (DFS)",
+        "n": 10,
+        "espaco": 100800.0,
+        "tempo_s": 0.004038792999949692,
+        "memoria_KiB": 10.9296875,
+        "geracoes": NaN,
+        "tempo_por_geracao_ms": NaN
+      },
+      {
+        "algoritmo": "Brute Force (DFS)",
+        "n": 12,
+        "espaco": 3024000.0,
+        "tempo_s": 0.10330602999999883,
+        "memoria_KiB": 12.828125,
+        "geracoes": NaN,
+        "tempo_por_geracao_ms": NaN
+      },
+      {
+        "algoritmo": "Algoritmo Genético (cfg B)",
+        "n": 10,
+        "espaco": NaN,
+        "tempo_s": 0.051452619999963645,
+        "memoria_KiB": 73.734375,
+        "geracoes": 67.0,
+        "tempo_por_geracao_ms": 0.7679495522382633
+      },
+      {
+        "algoritmo": "Greedy (heap)",
+        "n": 10,
+        "espaco": NaN,
+        "tempo_s": 9.029099999224854e-05,
+        "memoria_KiB": 7.1640625,
+        "geracoes": NaN,
+        "tempo_por_geracao_ms": NaN
+      },
+      {
+        "algoritmo": "Algoritmo Genético (cfg B)",
+        "n": 20,
+        "espaco": NaN,
+        "tempo_s": 0.05931353699997999,
+        "memoria_KiB": 135.9453125,
+        "geracoes": 99.0,
+        "tempo_por_geracao_ms": 0.5991266363634342
+      },
+      {
+        "algoritmo": "Greedy (heap)",
+        "n": 20,
+        "espaco": NaN,
+        "tempo_s": 0.00017292700010784756,
+        "memoria_KiB": 11.052734375,
+        "geracoes": NaN,
+        "tempo_por_geracao_ms": NaN
+      },
+      {
+        "algoritmo": "Algoritmo Genético (cfg B)",
+        "n": 30,
+        "espaco": NaN,
+        "tempo_s": 0.09130431999994926,
+        "memoria_KiB": 198.40625,
+        "geracoes": 135.0,
+        "tempo_por_geracao_ms": 0.6763282962959204
+      },
+      {
+        "algoritmo": "Greedy (heap)",
+        "n": 30,
+        "espaco": NaN,
+        "tempo_s": 0.00020343599999250728,
+        "memoria_KiB": 13.96484375,
+        "geracoes": NaN,
+        "tempo_por_geracao_ms": NaN
+      },
+      {
+        "algoritmo": "Algoritmo Genético (cfg B)",
+        "n": 60,
+        "espaco": NaN,
+        "tempo_s": 0.26046667299999626,
+        "memoria_KiB": 393.404296875,
+        "geracoes": 342.0,
+        "tempo_por_geracao_ms": 0.7615984590643166
+      },
+      {
+        "algoritmo": "Greedy (heap)",
+        "n": 60,
+        "espaco": NaN,
+        "tempo_s": 0.0003247390000069572,
+        "memoria_KiB": 22.65234375,
+        "geracoes": NaN,
+        "tempo_por_geracao_ms": NaN
+      },
+      {
+        "algoritmo": "Algoritmo Genético (cfg B)",
+        "n": 120,
+        "espaco": NaN,
+        "tempo_s": 0.36645006800006286,
+        "memoria_KiB": 759.396484375,
+        "geracoes": 337.0,
+        "tempo_por_geracao_ms": 1.0873889258162102
+      },
+      {
+        "algoritmo": "Greedy (heap)",
+        "n": 120,
+        "espaco": NaN,
+        "tempo_s": 0.0005636469999217297,
+        "memoria_KiB": 40.32421875,
+        "geracoes": NaN,
+        "tempo_por_geracao_ms": NaN
+      }
+    ],
+    "otimizacao": [
+      {
+        "otimizacao": "Brute Force: itertools + recálculo  ->  DFS + tabela + poda",
+        "n": 6,
+        "antes_s": 0.0022977889999538093,
+        "depois_s": 8.117400000173802e-05,
+        "speedup": 28.30695789174626,
+        "antes_mem_KiB": 3.224609375,
+        "depois_mem_KiB": 5.1796875,
+        "mesmo_resultado": true
+      },
+      {
+        "otimizacao": "Brute Force: itertools + recálculo  ->  DFS + tabela + poda",
+        "n": 8,
+        "antes_s": 0.034449623999989853,
+        "depois_s": 0.00021285799994075205,
+        "speedup": 161.84321946827805,
+        "antes_mem_KiB": 3.943359375,
+        "depois_mem_KiB": 8.921875,
+        "mesmo_resultado": true
+      },
+      {
+        "otimizacao": "Brute Force: itertools + recálculo  ->  DFS + tabela + poda",
+        "n": 10,
+        "antes_s": 0.7567622560000018,
+        "depois_s": 0.004038792999949692,
+        "speedup": 187.3733702146726,
+        "antes_mem_KiB": 5.056640625,
+        "depois_mem_KiB": 10.9296875,
+        "mesmo_resultado": true
+      },
+      {
+        "otimizacao": "GA: fitness em laço Python  ->  indexação vetorizada numpy",
+        "n": 30,
+        "antes_s": 1.2248808649999319,
+        "depois_s": 0.09414876799996819,
+        "speedup": 13.010057285086788,
+        "antes_mem_KiB": 197.53125,
+        "depois_mem_KiB": 198.40625,
+        "mesmo_resultado": true
+      }
+    ],
+    "gaps": [
+      {
+        "k": 6,
+        "espaco": 480,
+        "otimo_bf": 182457.91126000002,
+        "config": "A",
+        "ga": 175981.74316650006,
+        "gap_pct": 3.549403831698758,
+        "avaliacoes_ga": 2497,
+        "nos_bf": 198
+      },
+      {
+        "k": 6,
+        "espaco": 480,
+        "otimo_bf": 182457.91126000002,
+        "config": "B",
+        "ga": 182457.91126000002,
+        "gap_pct": 0.0,
+        "avaliacoes_ga": 7318,
+        "nos_bf": 198
+      },
+      {
+        "k": 8,
+        "espaco": 7200,
+        "otimo_bf": 229572.19258600002,
+        "config": "A",
+        "ga": 229572.19258600005,
+        "gap_pct": 0.0,
+        "avaliacoes_ga": 3238,
+        "nos_bf": 800
+      },
+      {
+        "k": 8,
+        "espaco": 7200,
+        "otimo_bf": 229572.19258600002,
+        "config": "B",
+        "ga": 229572.19258600005,
+        "gap_pct": 0.0,
+        "avaliacoes_ga": 8026,
+        "nos_bf": 800
+      },
+      {
+        "k": 10,
+        "espaco": 100800,
+        "otimo_bf": 308691.1725900001,
+        "config": "A",
+        "ga": 303527.082348,
+        "gap_pct": 1.672898579726783,
+        "avaliacoes_ga": 2848,
+        "nos_bf": 18882
+      },
+      {
+        "k": 10,
+        "espaco": 100800,
+        "otimo_bf": 308691.1725900001,
+        "config": "B",
+        "ga": 308691.17259000003,
+        "gap_pct": 1.8856276460739008e-14,
+        "avaliacoes_ga": 7908,
+        "nos_bf": 18882
+      },
+      {
+        "k": 12,
+        "espaco": 3024000,
+        "otimo_bf": 371958.31942,
+        "config": "A",
+        "ga": 371867.61328100006,
+        "gap_pct": 0.024386103029338732,
+        "avaliacoes_ga": 3043,
+        "nos_bf": 468560
+      },
+      {
+        "k": 12,
+        "espaco": 3024000,
+        "otimo_bf": 371958.31942,
+        "config": "B",
+        "ga": 371867.61328100006,
+        "gap_pct": 0.024386103029338732,
+        "avaliacoes_ga": 7908,
+        "nos_bf": 468560
+      }
+    ]
+  }
+}
