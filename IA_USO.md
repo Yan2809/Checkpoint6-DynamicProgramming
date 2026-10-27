@@ -1,0 +1,1 @@
+- Utilizado IA para gerar o README.md, arquivo reproduzir.sh e o consolidado das respostas em RESPOSTAS.md
