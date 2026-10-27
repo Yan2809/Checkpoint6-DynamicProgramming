@@ -1,0 +1,10 @@
+# Python 3.13 (testado em 3.13.17)
+numpy==2.5.3
+pandas==3.0.5
+matplotlib==3.11.2
+pytest==9.1.1
+tabulate==0.10.0
+# apenas para reexecutar o notebook gerador
+nbformat
+nbclient
+ipykernel

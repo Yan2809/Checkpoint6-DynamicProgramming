@@ -1,0 +1,32 @@
+{
+  "_comentario": "Parâmetros de MODELAGEM escolhidos pelo grupo. A instância oficial (data/) não é alterada; cenários-surpresa entram por aqui ou pela linha de comando.",
+  "questao_01": {
+    "max_fracao_skus_com_desconto": 0.40,
+    "giro_minimo": "base",
+    "penalidade_giro_ga": 10.0,
+    "limiar_desconto_profundo": 0.90,
+    "idade_minima_desconto_profundo_dias": 120,
+    "incentivo_passos": [0.05, 0.10, 0.15],
+    "incentivo_saliencia_beta": 1.6,
+    "incentivo_canibalizacao_alfa": 0.25,
+    "incentivo_roi_minimo": 1.0,
+    "subconjunto_brute_force": 10,
+    "ga_config_A": {"populacao": 40, "taxa_crossover": 0.9, "taxa_mutacao": 0.02, "elitismo": 1, "torneio": 2, "max_geracoes": 400, "paciencia": 60},
+    "ga_config_B": {"populacao": 120, "taxa_crossover": 0.9, "taxa_mutacao": 0.05, "elitismo": 2, "torneio": 3, "max_geracoes": 400, "paciencia": 60}
+  },
+  "questao_02": {
+    "elasticidade_cruzada_concorrente": 0.8,
+    "correlacao_choque_mercado": 0.3,
+    "cenarios_construcao": 2000,
+    "cenarios_validacao": 5000,
+    "offset_seed_validacao": 777777,
+    "pesos_urgencia_rho": [0.0, 0.25, 0.5, 1.0, 2.0],
+    "destaques_por_semana": 4,
+    "uplift_destaque": 0.30,
+    "custo_fixo_destaque": 150.0,
+    "custo_destaque_pct_receita": 0.05,
+    "destaque_roi_minimo": 1.2,
+    "percentil_risco": 5,
+    "estresse_multiplicador_dividas": [1.0, 1.25, 1.5, 1.75, 2.0, 2.25]
+  }
+}
