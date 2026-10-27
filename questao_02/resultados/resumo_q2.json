@@ -1,0 +1,4445 @@
+{
+  "grupo": "G01",
+  "id_instancia": "386e6252eb25",
+  "seed": 1025,
+  "cenario": {
+    "concorrente_delta": 0.0,
+    "logistica_delta": 0.0,
+    "orcamento_delta": 0.0,
+    "divida_delta": 0.0,
+    "remover_sku": []
+  },
+  "estatisticas_monte_carlo": [
+    {
+      "sku": "Q2-001",
+      "nivel": 0.82,
+      "preco": 1216.8,
+      "demanda_media_sem": 4.031,
+      "demanda_p5": 1.0,
+      "demanda_p95": 8.0,
+      "caixa_esperado_sem": -581.89,
+      "caixa_desvio_sem": 305.69
+    },
+    {
+      "sku": "Q2-001",
+      "nivel": 0.88,
+      "preco": 1305.83,
+      "demanda_media_sem": 3.637,
+      "demanda_p5": 1.0,
+      "demanda_p95": 7.0,
+      "caixa_esperado_sem": -227.89,
+      "caixa_desvio_sem": 127.47
+    },
+    {
+      "sku": "Q2-001",
+      "nivel": 0.94,
+      "preco": 1394.87,
+      "demanda_media_sem": 3.276,
+      "demanda_p5": 1.0,
+      "demanda_p95": 7.0,
+      "caixa_esperado_sem": 62.26,
+      "caixa_desvio_sem": 37.67
+    },
+    {
+      "sku": "Q2-001",
+      "nivel": 1.0,
+      "preco": 1483.9,
+      "demanda_media_sem": 3.032,
+      "demanda_p5": 0.0,
+      "demanda_p95": 6.0,
+      "caixa_esperado_sem": 305.28,
+      "caixa_desvio_sem": 183.49
+    },
+    {
+      "sku": "Q2-001",
+      "nivel": 1.06,
+      "preco": 1572.93,
+      "demanda_media_sem": 2.783,
+      "demanda_p5": 0.0,
+      "demanda_p95": 6.0,
+      "caixa_esperado_sem": 507.51,
+      "caixa_desvio_sem": 316.58
+    },
+    {
+      "sku": "Q2-001",
+      "nivel": 1.12,
+      "preco": 1661.97,
+      "demanda_media_sem": 2.558,
+      "demanda_p5": 0.0,
+      "demanda_p95": 6.0,
+      "caixa_esperado_sem": 675.23,
+      "caixa_desvio_sem": 440.38
+    },
+    {
+      "sku": "Q2-002",
+      "nivel": 0.82,
+      "preco": 1296.34,
+      "demanda_media_sem": 9.257,
+      "demanda_p5": 4.0,
+      "demanda_p95": 15.0,
+      "caixa_esperado_sem": -152.5,
+      "caixa_desvio_sem": 69.51
+    },
+    {
+      "sku": "Q2-002",
+      "nivel": 0.88,
+      "preco": 1391.19,
+      "demanda_media_sem": 8.413,
+      "demanda_p5": 4.0,
+      "demanda_p95": 14.0,
+      "caixa_esperado_sem": 557.1,
+      "caixa_desvio_sem": 218.36
+    },
+    {
+      "sku": "Q2-002",
+      "nivel": 0.94,
+      "preco": 1486.05,
+      "demanda_media_sem": 7.676,
+      "demanda_p5": 3.0,
+      "demanda_p95": 13.0,
+      "caixa_esperado_sem": 1143.12,
+      "caixa_desvio_sem": 458.58
+    },
+    {
+      "sku": "Q2-002",
+      "nivel": 1.0,
+      "preco": 1580.9,
+      "demanda_media_sem": 7.057,
+      "demanda_p5": 3.0,
+      "demanda_p95": 12.0,
+      "caixa_esperado_sem": 1634.48,
+      "caixa_desvio_sem": 679.96
+    },
+    {
+      "sku": "Q2-002",
+      "nivel": 1.06,
+      "preco": 1675.75,
+      "demanda_media_sem": 6.528,
+      "demanda_p5": 2.0,
+      "demanda_p95": 12.0,
+      "caixa_esperado_sem": 2051.74,
+      "caixa_desvio_sem": 879.77
+    },
+    {
+      "sku": "Q2-002",
+      "nivel": 1.12,
+      "preco": 1770.61,
+      "demanda_media_sem": 6.075,
+      "demanda_p5": 2.0,
+      "demanda_p95": 11.0,
+      "caixa_esperado_sem": 2411.45,
+      "caixa_desvio_sem": 1066.09
+    },
+    {
+      "sku": "Q2-003",
+      "nivel": 0.82,
+      "preco": 1129.06,
+      "demanda_media_sem": 5.377,
+      "demanda_p5": 2.0,
+      "demanda_p95": 10.0,
+      "caixa_esperado_sem": -1541.35,
+      "caixa_desvio_sem": 714.06
+    },
+    {
+      "sku": "Q2-003",
+      "nivel": 0.88,
+      "preco": 1211.67,
+      "demanda_media_sem": 4.842,
+      "demanda_p5": 1.0,
+      "demanda_p95": 9.0,
+      "caixa_esperado_sem": -1025.28,
+      "caixa_desvio_sem": 503.41
+    },
+    {
+      "sku": "Q2-003",
+      "nivel": 0.94,
+      "preco": 1294.29,
+      "demanda_media_sem": 4.404,
+      "demanda_p5": 1.0,
+      "demanda_p95": 8.0,
+      "caixa_esperado_sem": -602.95,
+      "caixa_desvio_sem": 310.28
+    },
+    {
+      "sku": "Q2-003",
+      "nivel": 1.0,
+      "preco": 1376.9,
+      "demanda_media_sem": 4.006,
+      "demanda_p5": 1.0,
+      "demanda_p95": 8.0,
+      "caixa_esperado_sem": -248.39,
+      "caixa_desvio_sem": 141.74
+    },
+    {
+      "sku": "Q2-003",
+      "nivel": 1.06,
+      "preco": 1459.51,
+      "demanda_media_sem": 3.707,
+      "demanda_p5": 1.0,
+      "demanda_p95": 7.0,
+      "caixa_esperado_sem": 47.27,
+      "caixa_desvio_sem": 56.0
+    },
+    {
+      "sku": "Q2-003",
+      "nivel": 1.12,
+      "preco": 1542.13,
+      "demanda_media_sem": 3.399,
+      "demanda_p5": 1.0,
+      "demanda_p95": 7.0,
+      "caixa_esperado_sem": 298.18,
+      "caixa_desvio_sem": 176.66
+    },
+    {
+      "sku": "Q2-004",
+      "nivel": 0.82,
+      "preco": 1557.92,
+      "demanda_media_sem": 3.878,
+      "demanda_p5": 1.0,
+      "demanda_p95": 8.0,
+      "caixa_esperado_sem": -857.57,
+      "caixa_desvio_sem": 458.74
+    },
+    {
+      "sku": "Q2-004",
+      "nivel": 0.88,
+      "preco": 1671.91,
+      "demanda_media_sem": 3.581,
+      "demanda_p5": 1.0,
+      "demanda_p95": 7.0,
+      "caixa_esperado_sem": -452.82,
+      "caixa_desvio_sem": 252.68
+    },
+    {
+      "sku": "Q2-004",
+      "nivel": 0.94,
+      "preco": 1785.91,
+      "demanda_media_sem": 3.28,
+      "demanda_p5": 1.0,
+      "demanda_p95": 7.0,
+      "caixa_esperado_sem": -104.25,
+      "caixa_desvio_sem": 60.79
+    },
+    {
+      "sku": "Q2-004",
+      "nivel": 1.0,
+      "preco": 1899.9,
+      "demanda_media_sem": 3.056,
+      "demanda_p5": 0.0,
+      "demanda_p95": 6.0,
+      "caixa_esperado_sem": 192.14,
+      "caixa_desvio_sem": 115.02
+    },
+    {
+      "sku": "Q2-004",
+      "nivel": 1.06,
+      "preco": 2013.89,
+      "demanda_media_sem": 2.85,
+      "demanda_p5": 0.0,
+      "demanda_p95": 6.0,
+      "caixa_esperado_sem": 449.01,
+      "caixa_desvio_sem": 278.28
+    },
+    {
+      "sku": "Q2-004",
+      "nivel": 1.12,
+      "preco": 2127.89,
+      "demanda_media_sem": 2.649,
+      "demanda_p5": 0.0,
+      "demanda_p95": 6.0,
+      "caixa_esperado_sem": 668.2,
+      "caixa_desvio_sem": 426.82
+    },
+    {
+      "sku": "Q2-005",
+      "nivel": 0.82,
+      "preco": 682.16,
+      "demanda_media_sem": 3.563,
+      "demanda_p5": 1.0,
+      "demanda_p95": 7.0,
+      "caixa_esperado_sem": -179.4,
+      "caixa_desvio_sem": 104.59
+    },
+    {
+      "sku": "Q2-005",
+      "nivel": 0.88,
+      "preco": 732.07,
+      "demanda_media_sem": 3.377,
+      "demanda_p5": 1.0,
+      "demanda_p95": 7.0,
+      "caixa_esperado_sem": -20.41,
+      "caixa_desvio_sem": 30.66
+    },
+    {
+      "sku": "Q2-005",
+      "nivel": 0.94,
+      "preco": 781.99,
+      "demanda_media_sem": 3.199,
+      "demanda_p5": 1.0,
+      "demanda_p95": 7.0,
+      "caixa_esperado_sem": 122.52,
+      "caixa_desvio_sem": 77.08
+    },
+    {
+      "sku": "Q2-005",
+      "nivel": 1.0,
+      "preco": 831.9,
+      "demanda_media_sem": 2.989,
+      "demanda_p5": 0.0,
+      "demanda_p95": 6.0,
+      "caixa_esperado_sem": 246.93,
+      "caixa_desvio_sem": 150.04
+    },
+    {
+      "sku": "Q2-005",
+      "nivel": 1.06,
+      "preco": 881.81,
+      "demanda_media_sem": 2.873,
+      "demanda_p5": 0.0,
+      "demanda_p95": 6.0,
+      "caixa_esperado_sem": 364.79,
+      "caixa_desvio_sem": 225.37
+    },
+    {
+      "sku": "Q2-005",
+      "nivel": 1.12,
+      "preco": 931.73,
+      "demanda_media_sem": 2.756,
+      "demanda_p5": 0.0,
+      "demanda_p95": 6.0,
+      "caixa_esperado_sem": 472.22,
+      "caixa_desvio_sem": 296.77
+    },
+    {
+      "sku": "Q2-006",
+      "nivel": 0.82,
+      "preco": 405.82,
+      "demanda_media_sem": 14.727,
+      "demanda_p5": 8.0,
+      "demanda_p95": 23.0,
+      "caixa_esperado_sem": 532.5,
+      "caixa_desvio_sem": 169.67
+    },
+    {
+      "sku": "Q2-006",
+      "nivel": 0.88,
+      "preco": 435.51,
+      "demanda_media_sem": 13.275,
+      "demanda_p5": 7.0,
+      "demanda_p95": 21.0,
+      "caixa_esperado_sem": 832.67,
+      "caixa_desvio_sem": 268.64
+    },
+    {
+      "sku": "Q2-006",
+      "nivel": 0.94,
+      "preco": 465.21,
+      "demanda_media_sem": 12.098,
+      "demanda_p5": 6.0,
+      "demanda_p95": 19.0,
+      "caixa_esperado_sem": 1080.36,
+      "caixa_desvio_sem": 362.4
+    },
+    {
+      "sku": "Q2-006",
+      "nivel": 1.0,
+      "preco": 494.9,
+      "demanda_media_sem": 11.106,
+      "demanda_p5": 5.0,
+      "demanda_p95": 18.0,
+      "caixa_esperado_sem": 1286.86,
+      "caixa_desvio_sem": 450.08
+    },
+    {
+      "sku": "Q2-006",
+      "nivel": 1.06,
+      "preco": 524.59,
+      "demanda_media_sem": 10.197,
+      "demanda_p5": 5.0,
+      "demanda_p95": 17.0,
+      "caixa_esperado_sem": 1452.35,
+      "caixa_desvio_sem": 517.66
+    },
+    {
+      "sku": "Q2-006",
+      "nivel": 1.12,
+      "preco": 554.29,
+      "demanda_media_sem": 9.438,
+      "demanda_p5": 4.0,
+      "demanda_p95": 16.0,
+      "caixa_esperado_sem": 1595.11,
+      "caixa_desvio_sem": 583.91
+    },
+    {
+      "sku": "Q2-007",
+      "nivel": 0.82,
+      "preco": 1221.72,
+      "demanda_media_sem": 4.242,
+      "demanda_p5": 1.0,
+      "demanda_p95": 8.0,
+      "caixa_esperado_sem": 360.48,
+      "caixa_desvio_sem": 187.06
+    },
+    {
+      "sku": "Q2-007",
+      "nivel": 0.88,
+      "preco": 1311.11,
+      "demanda_media_sem": 3.754,
+      "demanda_p5": 1.0,
+      "demanda_p95": 7.0,
+      "caixa_esperado_sem": 619.84,
+      "caixa_desvio_sem": 337.52
+    },
+    {
+      "sku": "Q2-007",
+      "nivel": 0.94,
+      "preco": 1400.51,
+      "demanda_media_sem": 3.356,
+      "demanda_p5": 1.0,
+      "demanda_p95": 7.0,
+      "caixa_esperado_sem": 823.12,
+      "caixa_desvio_sem": 471.16
+    },
+    {
+      "sku": "Q2-007",
+      "nivel": 1.0,
+      "preco": 1489.9,
+      "demanda_media_sem": 2.997,
+      "demanda_p5": 0.0,
+      "demanda_p95": 6.0,
+      "caixa_esperado_sem": 975.4,
+      "caixa_desvio_sem": 591.29
+    },
+    {
+      "sku": "Q2-007",
+      "nivel": 1.06,
+      "preco": 1579.29,
+      "demanda_media_sem": 2.746,
+      "demanda_p5": 0.0,
+      "demanda_p95": 6.0,
+      "caixa_esperado_sem": 1113.68,
+      "caixa_desvio_sem": 695.41
+    },
+    {
+      "sku": "Q2-007",
+      "nivel": 1.12,
+      "preco": 1668.69,
+      "demanda_media_sem": 2.484,
+      "demanda_p5": 0.0,
+      "demanda_p95": 5.0,
+      "caixa_esperado_sem": 1206.66,
+      "caixa_desvio_sem": 793.23
+    },
+    {
+      "sku": "Q2-008",
+      "nivel": 0.82,
+      "preco": 420.58,
+      "demanda_media_sem": 6.183,
+      "demanda_p5": 2.0,
+      "demanda_p95": 11.0,
+      "caixa_esperado_sem": -873.64,
+      "caixa_desvio_sem": 385.5
+    },
+    {
+      "sku": "Q2-008",
+      "nivel": 0.88,
+      "preco": 451.35,
+      "demanda_media_sem": 5.717,
+      "demanda_p5": 2.0,
+      "demanda_p95": 10.0,
+      "caixa_esperado_sem": -662.89,
+      "caixa_desvio_sem": 306.2
+    },
+    {
+      "sku": "Q2-008",
+      "nivel": 0.94,
+      "preco": 482.13,
+      "demanda_media_sem": 5.343,
+      "demanda_p5": 2.0,
+      "demanda_p95": 10.0,
+      "caixa_esperado_sem": -484.09,
+      "caixa_desvio_sem": 229.0
+    },
+    {
+      "sku": "Q2-008",
+      "nivel": 1.0,
+      "preco": 512.9,
+      "demanda_media_sem": 5.037,
+      "demanda_p5": 2.0,
+      "demanda_p95": 9.0,
+      "caixa_esperado_sem": -328.58,
+      "caixa_desvio_sem": 163.01
+    },
+    {
+      "sku": "Q2-008",
+      "nivel": 1.06,
+      "preco": 543.67,
+      "demanda_media_sem": 4.758,
+      "demanda_p5": 1.0,
+      "demanda_p95": 9.0,
+      "caixa_esperado_sem": -190.25,
+      "caixa_desvio_sem": 103.56
+    },
+    {
+      "sku": "Q2-008",
+      "nivel": 1.12,
+      "preco": 574.45,
+      "demanda_media_sem": 4.484,
+      "demanda_p5": 1.0,
+      "demanda_p95": 8.0,
+      "caixa_esperado_sem": -65.35,
+      "caixa_desvio_sem": 52.02
+    },
+    {
+      "sku": "Q2-009",
+      "nivel": 0.82,
+      "preco": 26.16,
+      "demanda_media_sem": 11.893,
+      "demanda_p5": 6.0,
+      "demanda_p95": 19.0,
+      "caixa_esperado_sem": 47.75,
+      "caixa_desvio_sem": 16.89
+    },
+    {
+      "sku": "Q2-009",
+      "nivel": 0.88,
+      "preco": 28.07,
+      "demanda_media_sem": 10.406,
+      "demanda_p5": 5.0,
+      "demanda_p95": 17.0,
+      "caixa_esperado_sem": 58.94,
+      "caixa_desvio_sem": 21.23
+    },
+    {
+      "sku": "Q2-009",
+      "nivel": 0.94,
+      "preco": 29.99,
+      "demanda_media_sem": 9.105,
+      "demanda_p5": 4.0,
+      "demanda_p95": 15.0,
+      "caixa_esperado_sem": 66.61,
+      "caixa_desvio_sem": 25.33
+    },
+    {
+      "sku": "Q2-009",
+      "nivel": 1.0,
+      "preco": 31.9,
+      "demanda_media_sem": 8.057,
+      "demanda_p5": 3.0,
+      "demanda_p95": 14.0,
+      "caixa_esperado_sem": 72.23,
+      "caixa_desvio_sem": 28.41
+    },
+    {
+      "sku": "Q2-009",
+      "nivel": 1.06,
+      "preco": 33.81,
+      "demanda_media_sem": 7.172,
+      "demanda_p5": 3.0,
+      "demanda_p95": 12.0,
+      "caixa_esperado_sem": 76.14,
+      "caixa_desvio_sem": 31.24
+    },
+    {
+      "sku": "Q2-009",
+      "nivel": 1.12,
+      "preco": 35.73,
+      "demanda_media_sem": 6.462,
+      "demanda_p5": 2.0,
+      "demanda_p95": 11.0,
+      "caixa_esperado_sem": 79.27,
+      "caixa_desvio_sem": 34.22
+    },
+    {
+      "sku": "Q2-010",
+      "nivel": 0.82,
+      "preco": 118.82,
+      "demanda_media_sem": 35.942,
+      "demanda_p5": 23.0,
+      "demanda_p95": 51.0,
+      "caixa_esperado_sem": 443.16,
+      "caixa_desvio_sem": 114.88
+    },
+    {
+      "sku": "Q2-010",
+      "nivel": 0.88,
+      "preco": 127.51,
+      "demanda_media_sem": 31.184,
+      "demanda_p5": 19.0,
+      "demanda_p95": 45.0,
+      "caixa_esperado_sem": 625.93,
+      "caixa_desvio_sem": 160.63
+    },
+    {
+      "sku": "Q2-010",
+      "nivel": 0.94,
+      "preco": 136.21,
+      "demanda_media_sem": 27.377,
+      "demanda_p5": 17.0,
+      "demanda_p95": 40.0,
+      "caixa_esperado_sem": 761.54,
+      "caixa_desvio_sem": 198.63
+    },
+    {
+      "sku": "Q2-010",
+      "nivel": 1.0,
+      "preco": 144.9,
+      "demanda_media_sem": 24.234,
+      "demanda_p5": 15.0,
+      "demanda_p95": 36.0,
+      "caixa_esperado_sem": 861.72,
+      "caixa_desvio_sem": 231.01
+    },
+    {
+      "sku": "Q2-010",
+      "nivel": 1.06,
+      "preco": 153.59,
+      "demanda_media_sem": 21.536,
+      "demanda_p5": 13.0,
+      "demanda_p95": 32.0,
+      "caixa_esperado_sem": 932.55,
+      "caixa_desvio_sem": 257.3
+    },
+    {
+      "sku": "Q2-010",
+      "nivel": 1.12,
+      "preco": 162.29,
+      "demanda_media_sem": 19.304,
+      "demanda_p5": 11.0,
+      "demanda_p95": 29.0,
+      "caixa_esperado_sem": 985.46,
+      "caixa_desvio_sem": 280.95
+    },
+    {
+      "sku": "Q2-011",
+      "nivel": 0.82,
+      "preco": 244.28,
+      "demanda_media_sem": 19.164,
+      "demanda_p5": 11.0,
+      "demanda_p95": 29.0,
+      "caixa_esperado_sem": 1124.36,
+      "caixa_desvio_sem": 320.6
+    },
+    {
+      "sku": "Q2-011",
+      "nivel": 0.88,
+      "preco": 262.15,
+      "demanda_media_sem": 17.143,
+      "demanda_p5": 9.0,
+      "demanda_p95": 26.0,
+      "caixa_esperado_sem": 1257.17,
+      "caixa_desvio_sem": 378.0
+    },
+    {
+      "sku": "Q2-011",
+      "nivel": 0.94,
+      "preco": 280.03,
+      "demanda_media_sem": 15.472,
+      "demanda_p5": 8.0,
+      "demanda_p95": 24.0,
+      "caixa_esperado_sem": 1361.47,
+      "caixa_desvio_sem": 419.88
+    },
+    {
+      "sku": "Q2-011",
+      "nivel": 1.0,
+      "preco": 297.9,
+      "demanda_media_sem": 14.102,
+      "demanda_p5": 7.0,
+      "demanda_p95": 22.0,
+      "caixa_esperado_sem": 1447.7,
+      "caixa_desvio_sem": 456.59
+    },
+    {
+      "sku": "Q2-011",
+      "nivel": 1.06,
+      "preco": 315.77,
+      "demanda_media_sem": 12.89,
+      "demanda_p5": 7.0,
+      "demanda_p95": 20.0,
+      "caixa_esperado_sem": 1512.38,
+      "caixa_desvio_sem": 493.91
+    },
+    {
+      "sku": "Q2-011",
+      "nivel": 1.12,
+      "preco": 333.65,
+      "demanda_media_sem": 11.812,
+      "demanda_p5": 6.0,
+      "demanda_p95": 19.0,
+      "caixa_esperado_sem": 1559.01,
+      "caixa_desvio_sem": 526.39
+    },
+    {
+      "sku": "Q2-012",
+      "nivel": 0.82,
+      "preco": 537.02,
+      "demanda_media_sem": 7.075,
+      "demanda_p5": 3.0,
+      "demanda_p95": 12.0,
+      "caixa_esperado_sem": -1135.97,
+      "caixa_desvio_sem": 473.52
+    },
+    {
+      "sku": "Q2-012",
+      "nivel": 0.88,
+      "preco": 576.31,
+      "demanda_media_sem": 6.274,
+      "demanda_p5": 2.0,
+      "demanda_p95": 11.0,
+      "caixa_esperado_sem": -787.73,
+      "caixa_desvio_sem": 344.42
+    },
+    {
+      "sku": "Q2-012",
+      "nivel": 0.94,
+      "preco": 615.61,
+      "demanda_media_sem": 5.606,
+      "demanda_p5": 2.0,
+      "demanda_p95": 10.0,
+      "caixa_esperado_sem": -508.24,
+      "caixa_desvio_sem": 235.94
+    },
+    {
+      "sku": "Q2-012",
+      "nivel": 1.0,
+      "preco": 654.9,
+      "demanda_media_sem": 5.026,
+      "demanda_p5": 2.0,
+      "demanda_p95": 9.0,
+      "caixa_esperado_sem": -279.72,
+      "caixa_desvio_sem": 139.02
+    },
+    {
+      "sku": "Q2-012",
+      "nivel": 1.06,
+      "preco": 694.19,
+      "demanda_media_sem": 4.58,
+      "demanda_p5": 1.0,
+      "demanda_p95": 9.0,
+      "caixa_esperado_sem": -94.81,
+      "caixa_desvio_sem": 59.74
+    },
+    {
+      "sku": "Q2-012",
+      "nivel": 1.12,
+      "preco": 733.49,
+      "demanda_media_sem": 4.137,
+      "demanda_p5": 1.0,
+      "demanda_p95": 8.0,
+      "caixa_esperado_sem": 59.1,
+      "caixa_desvio_sem": 44.62
+    },
+    {
+      "sku": "Q2-013",
+      "nivel": 0.82,
+      "preco": 1896.58,
+      "demanda_media_sem": 5.209,
+      "demanda_p5": 2.0,
+      "demanda_p95": 10.0,
+      "caixa_esperado_sem": -1022.11,
+      "caixa_desvio_sem": 485.36
+    },
+    {
+      "sku": "Q2-013",
+      "nivel": 0.88,
+      "preco": 2035.35,
+      "demanda_media_sem": 4.803,
+      "demanda_p5": 1.0,
+      "demanda_p95": 9.0,
+      "caixa_esperado_sem": -343.49,
+      "caixa_desvio_sem": 169.71
+    },
+    {
+      "sku": "Q2-013",
+      "nivel": 0.94,
+      "preco": 2174.13,
+      "demanda_media_sem": 4.391,
+      "demanda_p5": 1.0,
+      "demanda_p95": 8.0,
+      "caixa_esperado_sem": 233.55,
+      "caixa_desvio_sem": 122.2
+    },
+    {
+      "sku": "Q2-013",
+      "nivel": 1.0,
+      "preco": 2312.9,
+      "demanda_media_sem": 4.049,
+      "demanda_p5": 1.0,
+      "demanda_p95": 8.0,
+      "caixa_esperado_sem": 720.42,
+      "caixa_desvio_sem": 381.85
+    },
+    {
+      "sku": "Q2-013",
+      "nivel": 1.06,
+      "preco": 2451.67,
+      "demanda_media_sem": 3.785,
+      "demanda_p5": 1.0,
+      "demanda_p95": 7.0,
+      "caixa_esperado_sem": 1145.45,
+      "caixa_desvio_sem": 622.7
+    },
+    {
+      "sku": "Q2-013",
+      "nivel": 1.12,
+      "preco": 2590.45,
+      "demanda_media_sem": 3.497,
+      "demanda_p5": 1.0,
+      "demanda_p95": 7.0,
+      "caixa_esperado_sem": 1494.63,
+      "caixa_desvio_sem": 844.0
+    },
+    {
+      "sku": "Q2-014",
+      "nivel": 0.82,
+      "preco": 1662.06,
+      "demanda_media_sem": 7.31,
+      "demanda_p5": 3.0,
+      "demanda_p95": 13.0,
+      "caixa_esperado_sem": -2321.65,
+      "caixa_desvio_sem": 950.36
+    },
+    {
+      "sku": "Q2-014",
+      "nivel": 0.88,
+      "preco": 1783.67,
+      "demanda_media_sem": 6.825,
+      "demanda_p5": 3.0,
+      "demanda_p95": 12.0,
+      "caixa_esperado_sem": -1468.84,
+      "caixa_desvio_sem": 624.71
+    },
+    {
+      "sku": "Q2-014",
+      "nivel": 0.94,
+      "preco": 1905.29,
+      "demanda_media_sem": 6.39,
+      "demanda_p5": 2.0,
+      "demanda_p95": 11.0,
+      "caixa_esperado_sem": -720.81,
+      "caixa_desvio_sem": 321.42
+    },
+    {
+      "sku": "Q2-014",
+      "nivel": 1.0,
+      "preco": 2026.9,
+      "demanda_media_sem": 6.063,
+      "demanda_p5": 2.0,
+      "demanda_p95": 11.0,
+      "caixa_esperado_sem": -63.3,
+      "caixa_desvio_sem": 92.87
+    },
+    {
+      "sku": "Q2-014",
+      "nivel": 1.06,
+      "preco": 2148.51,
+      "demanda_media_sem": 5.757,
+      "demanda_p5": 2.0,
+      "demanda_p95": 10.0,
+      "caixa_esperado_sem": 529.85,
+      "caixa_desvio_sem": 251.87
+    },
+    {
+      "sku": "Q2-014",
+      "nivel": 1.12,
+      "preco": 2270.13,
+      "demanda_media_sem": 5.429,
+      "demanda_p5": 2.0,
+      "demanda_p95": 10.0,
+      "caixa_esperado_sem": 1055.7,
+      "caixa_desvio_sem": 492.89
+    },
+    {
+      "sku": "Q2-015",
+      "nivel": 0.82,
+      "preco": 374.66,
+      "demanda_media_sem": 96.957,
+      "demanda_p5": 67.0,
+      "demanda_p95": 131.0,
+      "caixa_esperado_sem": 9988.11,
+      "caixa_desvio_sem": 2020.21
+    },
+    {
+      "sku": "Q2-015",
+      "nivel": 0.88,
+      "preco": 402.07,
+      "demanda_media_sem": 82.049,
+      "demanda_p5": 57.0,
+      "demanda_p95": 112.0,
+      "caixa_esperado_sem": 10327.26,
+      "caixa_desvio_sem": 2130.27
+    },
+    {
+      "sku": "Q2-015",
+      "nivel": 0.94,
+      "preco": 429.49,
+      "demanda_media_sem": 70.188,
+      "demanda_p5": 48.0,
+      "demanda_p95": 96.0,
+      "caixa_esperado_sem": 10438.33,
+      "caixa_desvio_sem": 2207.2
+    },
+    {
+      "sku": "Q2-015",
+      "nivel": 1.0,
+      "preco": 456.9,
+      "demanda_media_sem": 60.532,
+      "demanda_p5": 41.0,
+      "demanda_p95": 83.0,
+      "caixa_esperado_sem": 10385.47,
+      "caixa_desvio_sem": 2245.25
+    },
+    {
+      "sku": "Q2-015",
+      "nivel": 1.06,
+      "preco": 484.31,
+      "demanda_media_sem": 52.779,
+      "demanda_p5": 35.0,
+      "demanda_p95": 73.0,
+      "caixa_esperado_sem": 10261.45,
+      "caixa_desvio_sem": 2289.56
+    },
+    {
+      "sku": "Q2-015",
+      "nivel": 1.12,
+      "preco": 511.73,
+      "demanda_media_sem": 46.306,
+      "demanda_p5": 30.0,
+      "demanda_p95": 65.0,
+      "caixa_esperado_sem": 10061.17,
+      "caixa_desvio_sem": 2288.85
+    },
+    {
+      "sku": "Q2-016",
+      "nivel": 0.82,
+      "preco": 161.46,
+      "demanda_media_sem": 18.445,
+      "demanda_p5": 10.0,
+      "demanda_p95": 28.0,
+      "caixa_esperado_sem": -141.85,
+      "caixa_desvio_sem": 60.22
+    },
+    {
+      "sku": "Q2-016",
+      "nivel": 0.88,
+      "preco": 173.27,
+      "demanda_media_sem": 16.346,
+      "demanda_p5": 9.0,
+      "demanda_p95": 25.0,
+      "caixa_esperado_sem": 33.54,
+      "caixa_desvio_sem": 41.06
+    },
+    {
+      "sku": "Q2-016",
+      "nivel": 0.94,
+      "preco": 185.09,
+      "demanda_media_sem": 14.636,
+      "demanda_p5": 8.0,
+      "demanda_p95": 23.0,
+      "caixa_esperado_sem": 172.69,
+      "caixa_desvio_sem": 64.96
+    },
+    {
+      "sku": "Q2-016",
+      "nivel": 1.0,
+      "preco": 196.9,
+      "demanda_media_sem": 13.073,
+      "demanda_p5": 7.0,
+      "demanda_p95": 20.0,
+      "caixa_esperado_sem": 281.65,
+      "caixa_desvio_sem": 97.08
+    },
+    {
+      "sku": "Q2-016",
+      "nivel": 1.06,
+      "preco": 208.71,
+      "demanda_media_sem": 11.854,
+      "demanda_p5": 6.0,
+      "demanda_p95": 19.0,
+      "caixa_esperado_sem": 370.84,
+      "caixa_desvio_sem": 128.49
+    },
+    {
+      "sku": "Q2-016",
+      "nivel": 1.12,
+      "preco": 220.53,
+      "demanda_media_sem": 10.741,
+      "demanda_p5": 5.0,
+      "demanda_p95": 17.0,
+      "caixa_esperado_sem": 440.79,
+      "caixa_desvio_sem": 156.4
+    },
+    {
+      "sku": "Q2-017",
+      "nivel": 0.82,
+      "preco": 1350.46,
+      "demanda_media_sem": 10.428,
+      "demanda_p5": 5.0,
+      "demanda_p95": 17.0,
+      "caixa_esperado_sem": 964.64,
+      "caixa_desvio_sem": 344.58
+    },
+    {
+      "sku": "Q2-017",
+      "nivel": 0.88,
+      "preco": 1449.27,
+      "demanda_media_sem": 9.071,
+      "demanda_p5": 4.0,
+      "demanda_p95": 15.0,
+      "caixa_esperado_sem": 1636.61,
+      "caixa_desvio_sem": 616.03
+    },
+    {
+      "sku": "Q2-017",
+      "nivel": 0.94,
+      "preco": 1548.09,
+      "demanda_media_sem": 7.969,
+      "demanda_p5": 3.0,
+      "demanda_p95": 13.0,
+      "caixa_esperado_sem": 2138.32,
+      "caixa_desvio_sem": 842.88
+    },
+    {
+      "sku": "Q2-017",
+      "nivel": 1.0,
+      "preco": 1646.9,
+      "demanda_media_sem": 7.042,
+      "demanda_p5": 3.0,
+      "demanda_p95": 12.0,
+      "caixa_esperado_sem": 2508.39,
+      "caixa_desvio_sem": 1047.11
+    },
+    {
+      "sku": "Q2-017",
+      "nivel": 1.06,
+      "preco": 1745.71,
+      "demanda_media_sem": 6.25,
+      "demanda_p5": 2.0,
+      "demanda_p95": 11.0,
+      "caixa_esperado_sem": 2775.67,
+      "caixa_desvio_sem": 1217.41
+    },
+    {
+      "sku": "Q2-017",
+      "nivel": 1.12,
+      "preco": 1844.53,
+      "demanda_media_sem": 5.612,
+      "demanda_p5": 2.0,
+      "demanda_p95": 10.0,
+      "caixa_esperado_sem": 2985.55,
+      "caixa_desvio_sem": 1370.87
+    },
+    {
+      "sku": "Q2-018",
+      "nivel": 0.82,
+      "preco": 404.18,
+      "demanda_media_sem": 13.12,
+      "demanda_p5": 7.0,
+      "demanda_p95": 21.0,
+      "caixa_esperado_sem": -78.13,
+      "caixa_desvio_sem": 33.87
+    },
+    {
+      "sku": "Q2-018",
+      "nivel": 0.88,
+      "preco": 433.75,
+      "demanda_media_sem": 11.959,
+      "demanda_p5": 6.0,
+      "demanda_p95": 19.0,
+      "caixa_esperado_sem": 224.8,
+      "caixa_desvio_sem": 78.97
+    },
+    {
+      "sku": "Q2-018",
+      "nivel": 0.94,
+      "preco": 463.33,
+      "demanda_media_sem": 10.977,
+      "demanda_p5": 5.0,
+      "demanda_p95": 18.0,
+      "caixa_esperado_sem": 478.1,
+      "caixa_desvio_sem": 166.46
+    },
+    {
+      "sku": "Q2-018",
+      "nivel": 1.0,
+      "preco": 492.9,
+      "demanda_media_sem": 10.128,
+      "demanda_p5": 5.0,
+      "demanda_p95": 16.0,
+      "caixa_esperado_sem": 691.78,
+      "caixa_desvio_sem": 247.71
+    },
+    {
+      "sku": "Q2-018",
+      "nivel": 1.06,
+      "preco": 522.47,
+      "demanda_media_sem": 9.321,
+      "demanda_p5": 4.0,
+      "demanda_p95": 15.0,
+      "caixa_esperado_sem": 867.44,
+      "caixa_desvio_sem": 321.68
+    },
+    {
+      "sku": "Q2-018",
+      "nivel": 1.12,
+      "preco": 552.05,
+      "demanda_media_sem": 8.711,
+      "demanda_p5": 4.0,
+      "demanda_p95": 15.0,
+      "caixa_esperado_sem": 1026.41,
+      "caixa_desvio_sem": 390.59
+    },
+    {
+      "sku": "Q2-019",
+      "nivel": 0.82,
+      "preco": 682.16,
+      "demanda_media_sem": 8.237,
+      "demanda_p5": 3.0,
+      "demanda_p95": 14.0,
+      "caixa_esperado_sem": -1045.87,
+      "caixa_desvio_sem": 407.18
+    },
+    {
+      "sku": "Q2-019",
+      "nivel": 0.88,
+      "preco": 732.07,
+      "demanda_media_sem": 7.388,
+      "demanda_p5": 3.0,
+      "demanda_p95": 13.0,
+      "caixa_esperado_sem": -632.15,
+      "caixa_desvio_sem": 259.29
+    },
+    {
+      "sku": "Q2-019",
+      "nivel": 0.94,
+      "preco": 781.99,
+      "demanda_media_sem": 6.68,
+      "demanda_p5": 2.0,
+      "demanda_p95": 12.0,
+      "caixa_esperado_sem": -294.82,
+      "caixa_desvio_sem": 126.4
+    },
+    {
+      "sku": "Q2-019",
+      "nivel": 1.0,
+      "preco": 831.9,
+      "demanda_media_sem": 6.049,
+      "demanda_p5": 2.0,
+      "demanda_p95": 11.0,
+      "caixa_esperado_sem": -16.42,
+      "caixa_desvio_sem": 18.22
+    },
+    {
+      "sku": "Q2-019",
+      "nivel": 1.06,
+      "preco": 881.81,
+      "demanda_media_sem": 5.516,
+      "demanda_p5": 2.0,
+      "demanda_p95": 10.0,
+      "caixa_esperado_sem": 213.46,
+      "caixa_desvio_sem": 98.83
+    },
+    {
+      "sku": "Q2-019",
+      "nivel": 1.12,
+      "preco": 931.73,
+      "demanda_media_sem": 5.085,
+      "demanda_p5": 2.0,
+      "demanda_p95": 9.0,
+      "caixa_esperado_sem": 407.38,
+      "caixa_desvio_sem": 193.65
+    },
+    {
+      "sku": "Q2-020",
+      "nivel": 0.82,
+      "preco": 204.1,
+      "demanda_media_sem": 5.238,
+      "demanda_p5": 2.0,
+      "demanda_p95": 10.0,
+      "caixa_esperado_sem": -226.12,
+      "caixa_desvio_sem": 107.22
+    },
+    {
+      "sku": "Q2-020",
+      "nivel": 0.88,
+      "preco": 219.03,
+      "demanda_media_sem": 4.77,
+      "demanda_p5": 1.0,
+      "demanda_p95": 9.0,
+      "caixa_esperado_sem": -144.57,
+      "caixa_desvio_sem": 71.75
+    },
+    {
+      "sku": "Q2-020",
+      "nivel": 0.94,
+      "preco": 233.97,
+      "demanda_media_sem": 4.398,
+      "demanda_p5": 1.0,
+      "demanda_p95": 8.0,
+      "caixa_esperado_sem": -76.79,
+      "caixa_desvio_sem": 41.03
+    },
+    {
+      "sku": "Q2-020",
+      "nivel": 1.0,
+      "preco": 248.9,
+      "demanda_media_sem": 4.026,
+      "demanda_p5": 1.0,
+      "demanda_p95": 8.0,
+      "caixa_esperado_sem": -18.59,
+      "caixa_desvio_sem": 15.42
+    },
+    {
+      "sku": "Q2-020",
+      "nivel": 1.06,
+      "preco": 263.83,
+      "demanda_media_sem": 3.787,
+      "demanda_p5": 1.0,
+      "demanda_p95": 7.0,
+      "caixa_esperado_sem": 31.16,
+      "caixa_desvio_sem": 20.33
+    },
+    {
+      "sku": "Q2-020",
+      "nivel": 1.12,
+      "preco": 278.77,
+      "demanda_media_sem": 3.52,
+      "demanda_p5": 1.0,
+      "demanda_p95": 7.0,
+      "caixa_esperado_sem": 74.17,
+      "caixa_desvio_sem": 42.51
+    },
+    {
+      "sku": "Q2-021",
+      "nivel": 0.82,
+      "preco": 1188.92,
+      "demanda_media_sem": 4.004,
+      "demanda_p5": 1.0,
+      "demanda_p95": 8.0,
+      "caixa_esperado_sem": -626.08,
+      "caixa_desvio_sem": 332.43
+    },
+    {
+      "sku": "Q2-021",
+      "nivel": 0.88,
+      "preco": 1275.91,
+      "demanda_media_sem": 3.607,
+      "demanda_p5": 1.0,
+      "demanda_p95": 7.0,
+      "caixa_esperado_sem": -306.53,
+      "caixa_desvio_sem": 168.09
+    },
+    {
+      "sku": "Q2-021",
+      "nivel": 0.94,
+      "preco": 1362.91,
+      "demanda_media_sem": 3.279,
+      "demanda_p5": 1.0,
+      "demanda_p95": 7.0,
+      "caixa_esperado_sem": -44.56,
+      "caixa_desvio_sem": 26.65
+    },
+    {
+      "sku": "Q2-021",
+      "nivel": 1.0,
+      "preco": 1449.9,
+      "demanda_media_sem": 3.001,
+      "demanda_p5": 0.0,
+      "demanda_p95": 6.0,
+      "caixa_esperado_sem": 173.45,
+      "caixa_desvio_sem": 105.69
+    },
+    {
+      "sku": "Q2-021",
+      "nivel": 1.06,
+      "preco": 1536.89,
+      "demanda_media_sem": 2.782,
+      "demanda_p5": 0.0,
+      "demanda_p95": 6.0,
+      "caixa_esperado_sem": 359.35,
+      "caixa_desvio_sem": 224.92
+    },
+    {
+      "sku": "Q2-021",
+      "nivel": 1.12,
+      "preco": 1623.89,
+      "demanda_media_sem": 2.556,
+      "demanda_p5": 0.0,
+      "demanda_p95": 5.0,
+      "caixa_esperado_sem": 512.69,
+      "caixa_desvio_sem": 330.11
+    },
+    {
+      "sku": "Q2-022",
+      "nivel": 0.82,
+      "preco": 1281.58,
+      "demanda_media_sem": 4.211,
+      "demanda_p5": 1.0,
+      "demanda_p95": 8.0,
+      "caixa_esperado_sem": -1103.26,
+      "caixa_desvio_sem": 569.6
+    },
+    {
+      "sku": "Q2-022",
+      "nivel": 0.88,
+      "preco": 1375.35,
+      "demanda_media_sem": 3.742,
+      "demanda_p5": 1.0,
+      "demanda_p95": 7.0,
+      "caixa_esperado_sem": -677.74,
+      "caixa_desvio_sem": 369.82
+    },
+    {
+      "sku": "Q2-022",
+      "nivel": 0.94,
+      "preco": 1469.13,
+      "demanda_media_sem": 3.374,
+      "demanda_p5": 1.0,
+      "demanda_p95": 7.0,
+      "caixa_esperado_sem": -337.99,
+      "caixa_desvio_sem": 193.3
+    },
+    {
+      "sku": "Q2-022",
+      "nivel": 1.0,
+      "preco": 1562.9,
+      "demanda_media_sem": 3.045,
+      "demanda_p5": 0.0,
+      "demanda_p95": 6.0,
+      "caixa_esperado_sem": -58.6,
+      "caixa_desvio_sem": 39.25
+    },
+    {
+      "sku": "Q2-022",
+      "nivel": 1.06,
+      "preco": 1656.67,
+      "demanda_media_sem": 2.753,
+      "demanda_p5": 0.0,
+      "demanda_p95": 6.0,
+      "caixa_esperado_sem": 169.7,
+      "caixa_desvio_sem": 106.94
+    },
+    {
+      "sku": "Q2-022",
+      "nivel": 1.12,
+      "preco": 1750.45,
+      "demanda_media_sem": 2.522,
+      "demanda_p5": 0.0,
+      "demanda_p95": 6.0,
+      "caixa_esperado_sem": 359.58,
+      "caixa_desvio_sem": 235.74
+    },
+    {
+      "sku": "Q2-023",
+      "nivel": 0.82,
+      "preco": 1677.64,
+      "demanda_media_sem": 4.528,
+      "demanda_p5": 1.0,
+      "demanda_p95": 9.0,
+      "caixa_esperado_sem": -1127.59,
+      "caixa_desvio_sem": 564.99
+    },
+    {
+      "sku": "Q2-023",
+      "nivel": 0.88,
+      "preco": 1800.39,
+      "demanda_media_sem": 3.947,
+      "demanda_p5": 1.0,
+      "demanda_p95": 8.0,
+      "caixa_esperado_sem": -580.32,
+      "caixa_desvio_sem": 309.83
+    },
+    {
+      "sku": "Q2-023",
+      "nivel": 0.94,
+      "preco": 1923.15,
+      "demanda_media_sem": 3.46,
+      "demanda_p5": 1.0,
+      "demanda_p95": 7.0,
+      "caixa_esperado_sem": -155.79,
+      "caixa_desvio_sem": 88.95
+    },
+    {
+      "sku": "Q2-023",
+      "nivel": 1.0,
+      "preco": 2045.9,
+      "demanda_media_sem": 3.032,
+      "demanda_p5": 0.0,
+      "demanda_p95": 6.0,
+      "caixa_esperado_sem": 172.66,
+      "caixa_desvio_sem": 104.07
+    },
+    {
+      "sku": "Q2-023",
+      "nivel": 1.06,
+      "preco": 2168.65,
+      "demanda_media_sem": 2.691,
+      "demanda_p5": 0.0,
+      "demanda_p95": 6.0,
+      "caixa_esperado_sem": 427.77,
+      "caixa_desvio_sem": 273.1
+    },
+    {
+      "sku": "Q2-023",
+      "nivel": 1.12,
+      "preco": 2291.41,
+      "demanda_media_sem": 2.432,
+      "demanda_p5": 0.0,
+      "demanda_p95": 5.0,
+      "caixa_esperado_sem": 634.67,
+      "caixa_desvio_sem": 422.22
+    },
+    {
+      "sku": "Q2-024",
+      "nivel": 0.82,
+      "preco": 2247.54,
+      "demanda_media_sem": 11.782,
+      "demanda_p5": 6.0,
+      "demanda_p95": 19.0,
+      "caixa_esperado_sem": -590.89,
+      "caixa_desvio_sem": 262.67
+    },
+    {
+      "sku": "Q2-024",
+      "nivel": 0.88,
+      "preco": 2411.99,
+      "demanda_media_sem": 10.744,
+      "demanda_p5": 5.0,
+      "demanda_p95": 17.0,
+      "caixa_esperado_sem": 1056.56,
+      "caixa_desvio_sem": 403.58
+    },
+    {
+      "sku": "Q2-024",
+      "nivel": 0.94,
+      "preco": 2576.45,
+      "demanda_media_sem": 9.811,
+      "demanda_p5": 4.0,
+      "demanda_p95": 16.0,
+      "caixa_esperado_sem": 2421.65,
+      "caixa_desvio_sem": 893.26
+    },
+    {
+      "sku": "Q2-024",
+      "nivel": 1.0,
+      "preco": 2740.9,
+      "demanda_media_sem": 9.087,
+      "demanda_p5": 4.0,
+      "demanda_p95": 15.0,
+      "caixa_esperado_sem": 3591.78,
+      "caixa_desvio_sem": 1354.22
+    },
+    {
+      "sku": "Q2-024",
+      "nivel": 1.06,
+      "preco": 2905.35,
+      "demanda_media_sem": 8.393,
+      "demanda_p5": 4.0,
+      "demanda_p95": 14.0,
+      "caixa_esperado_sem": 4564.53,
+      "caixa_desvio_sem": 1763.98
+    },
+    {
+      "sku": "Q2-024",
+      "nivel": 1.12,
+      "preco": 3069.81,
+      "demanda_media_sem": 7.77,
+      "demanda_p5": 3.0,
+      "demanda_p95": 13.0,
+      "caixa_esperado_sem": 5378.6,
+      "caixa_desvio_sem": 2148.72
+    }
+  ],
+  "selecao_rho": [
+    {
+      "rho": 0.0,
+      "P_3_parcelas": 1.0,
+      "P_sem4": 1.0,
+      "P_sem8": 1.0,
+      "P_sem12": 1.0,
+      "caixa_final_esperado": 197882.14295851634,
+      "caixa_final_P5": 181503.51206778613,
+      "escolhido": true
+    },
+    {
+      "rho": 0.25,
+      "P_3_parcelas": 1.0,
+      "P_sem4": 1.0,
+      "P_sem8": 1.0,
+      "P_sem12": 1.0,
+      "caixa_final_esperado": 197913.01946081873,
+      "caixa_final_P5": 181555.9541525285,
+      "escolhido": false
+    },
+    {
+      "rho": 0.5,
+      "P_3_parcelas": 1.0,
+      "P_sem4": 1.0,
+      "P_sem8": 1.0,
+      "P_sem12": 1.0,
+      "caixa_final_esperado": 197966.3506267386,
+      "caixa_final_P5": 181368.44763041634,
+      "escolhido": false
+    },
+    {
+      "rho": 1.0,
+      "P_3_parcelas": 1.0,
+      "P_sem4": 1.0,
+      "P_sem8": 1.0,
+      "P_sem12": 1.0,
+      "caixa_final_esperado": 197984.58052903414,
+      "caixa_final_P5": 181416.45642629598,
+      "escolhido": false
+    },
+    {
+      "rho": 2.0,
+      "P_3_parcelas": 1.0,
+      "P_sem4": 1.0,
+      "P_sem8": 1.0,
+      "P_sem12": 1.0,
+      "caixa_final_esperado": 198036.49755382192,
+      "caixa_final_P5": 181593.71123790045,
+      "escolhido": false
+    }
+  ],
+  "rho_escolhido": 0.0,
+  "trajetoria_otima_dp": [
+    {
+      "sku": "Q2-001",
+      "semana": 1,
+      "estoque_inicio": 77,
+      "nivel": 1.12,
+      "preco": 1661.97,
+      "vendas_esperadas": 2.53
+    },
+    {
+      "sku": "Q2-001",
+      "semana": 2,
+      "estoque_inicio": 74,
+      "nivel": 1.12,
+      "preco": 1661.97,
+      "vendas_esperadas": 2.55
+    },
+    {
+      "sku": "Q2-001",
+      "semana": 3,
+      "estoque_inicio": 71,
+      "nivel": 1.12,
+      "preco": 1661.97,
+      "vendas_esperadas": 2.53
+    },
+    {
+      "sku": "Q2-001",
+      "semana": 4,
+      "estoque_inicio": 68,
+      "nivel": 1.12,
+      "preco": 1661.97,
+      "vendas_esperadas": 2.61
+    },
+    {
+      "sku": "Q2-001",
+      "semana": 5,
+      "estoque_inicio": 65,
+      "nivel": 1.12,
+      "preco": 1661.97,
+      "vendas_esperadas": 2.58
+    },
+    {
+      "sku": "Q2-001",
+      "semana": 6,
+      "estoque_inicio": 62,
+      "nivel": 1.12,
+      "preco": 1661.97,
+      "vendas_esperadas": 2.48
+    },
+    {
+      "sku": "Q2-001",
+      "semana": 7,
+      "estoque_inicio": 60,
+      "nivel": 1.12,
+      "preco": 1661.97,
+      "vendas_esperadas": 2.53
+    },
+    {
+      "sku": "Q2-001",
+      "semana": 8,
+      "estoque_inicio": 57,
+      "nivel": 1.12,
+      "preco": 1661.97,
+      "vendas_esperadas": 2.57
+    },
+    {
+      "sku": "Q2-001",
+      "semana": 9,
+      "estoque_inicio": 54,
+      "nivel": 1.12,
+      "preco": 1661.97,
+      "vendas_esperadas": 2.63
+    },
+    {
+      "sku": "Q2-001",
+      "semana": 10,
+      "estoque_inicio": 51,
+      "nivel": 1.12,
+      "preco": 1661.97,
+      "vendas_esperadas": 2.56
+    },
+    {
+      "sku": "Q2-001",
+      "semana": 11,
+      "estoque_inicio": 48,
+      "nivel": 1.12,
+      "preco": 1661.97,
+      "vendas_esperadas": 2.58
+    },
+    {
+      "sku": "Q2-001",
+      "semana": 12,
+      "estoque_inicio": 45,
+      "nivel": 1.12,
+      "preco": 1661.97,
+      "vendas_esperadas": 2.56
+    },
+    {
+      "sku": "Q2-002",
+      "semana": 1,
+      "estoque_inicio": 52,
+      "nivel": 1.12,
+      "preco": 1770.61,
+      "vendas_esperadas": 5.98
+    },
+    {
+      "sku": "Q2-002",
+      "semana": 2,
+      "estoque_inicio": 46,
+      "nivel": 1.12,
+      "preco": 1770.61,
+      "vendas_esperadas": 6.05
+    },
+    {
+      "sku": "Q2-002",
+      "semana": 3,
+      "estoque_inicio": 40,
+      "nivel": 1.12,
+      "preco": 1770.61,
+      "vendas_esperadas": 6.03
+    },
+    {
+      "sku": "Q2-002",
+      "semana": 4,
+      "estoque_inicio": 34,
+      "nivel": 1.12,
+      "preco": 1770.61,
+      "vendas_esperadas": 6.0
+    },
+    {
+      "sku": "Q2-002",
+      "semana": 5,
+      "estoque_inicio": 28,
+      "nivel": 1.12,
+      "preco": 1770.61,
+      "vendas_esperadas": 6.05
+    },
+    {
+      "sku": "Q2-002",
+      "semana": 6,
+      "estoque_inicio": 22,
+      "nivel": 1.12,
+      "preco": 1770.61,
+      "vendas_esperadas": 6.05
+    },
+    {
+      "sku": "Q2-002",
+      "semana": 7,
+      "estoque_inicio": 16,
+      "nivel": 1.12,
+      "preco": 1770.61,
+      "vendas_esperadas": 6.1
+    },
+    {
+      "sku": "Q2-002",
+      "semana": 8,
+      "estoque_inicio": 10,
+      "nivel": 1.12,
+      "preco": 1770.61,
+      "vendas_esperadas": 5.99
+    },
+    {
+      "sku": "Q2-002",
+      "semana": 9,
+      "estoque_inicio": 4,
+      "nivel": 1.12,
+      "preco": 1770.61,
+      "vendas_esperadas": 3.71
+    },
+    {
+      "sku": "Q2-002",
+      "semana": 10,
+      "estoque_inicio": 0,
+      "nivel": "esgotado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-002",
+      "semana": 11,
+      "estoque_inicio": 0,
+      "nivel": "esgotado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-002",
+      "semana": 12,
+      "estoque_inicio": 0,
+      "nivel": "esgotado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-003",
+      "semana": 1,
+      "estoque_inicio": 77,
+      "nivel": 1.12,
+      "preco": 1542.13,
+      "vendas_esperadas": 3.39
+    },
+    {
+      "sku": "Q2-003",
+      "semana": 2,
+      "estoque_inicio": 74,
+      "nivel": 1.12,
+      "preco": 1542.13,
+      "vendas_esperadas": 3.28
+    },
+    {
+      "sku": "Q2-003",
+      "semana": 3,
+      "estoque_inicio": 71,
+      "nivel": 1.12,
+      "preco": 1542.13,
+      "vendas_esperadas": 3.36
+    },
+    {
+      "sku": "Q2-003",
+      "semana": 4,
+      "estoque_inicio": 68,
+      "nivel": 1.12,
+      "preco": 1542.13,
+      "vendas_esperadas": 3.42
+    },
+    {
+      "sku": "Q2-003",
+      "semana": 5,
+      "estoque_inicio": 65,
+      "nivel": 1.12,
+      "preco": 1542.13,
+      "vendas_esperadas": 3.42
+    },
+    {
+      "sku": "Q2-003",
+      "semana": 6,
+      "estoque_inicio": 62,
+      "nivel": 1.12,
+      "preco": 1542.13,
+      "vendas_esperadas": 3.37
+    },
+    {
+      "sku": "Q2-003",
+      "semana": 7,
+      "estoque_inicio": 59,
+      "nivel": 1.12,
+      "preco": 1542.13,
+      "vendas_esperadas": 3.34
+    },
+    {
+      "sku": "Q2-003",
+      "semana": 8,
+      "estoque_inicio": 56,
+      "nivel": 1.12,
+      "preco": 1542.13,
+      "vendas_esperadas": 3.46
+    },
+    {
+      "sku": "Q2-003",
+      "semana": 9,
+      "estoque_inicio": 53,
+      "nivel": 1.12,
+      "preco": 1542.13,
+      "vendas_esperadas": 3.36
+    },
+    {
+      "sku": "Q2-003",
+      "semana": 10,
+      "estoque_inicio": 50,
+      "nivel": 1.12,
+      "preco": 1542.13,
+      "vendas_esperadas": 3.46
+    },
+    {
+      "sku": "Q2-003",
+      "semana": 11,
+      "estoque_inicio": 47,
+      "nivel": 1.12,
+      "preco": 1542.13,
+      "vendas_esperadas": 3.47
+    },
+    {
+      "sku": "Q2-003",
+      "semana": 12,
+      "estoque_inicio": 44,
+      "nivel": 1.12,
+      "preco": 1542.13,
+      "vendas_esperadas": 3.45
+    },
+    {
+      "sku": "Q2-004",
+      "semana": 1,
+      "estoque_inicio": 39,
+      "nivel": 1.12,
+      "preco": 2127.89,
+      "vendas_esperadas": 2.67
+    },
+    {
+      "sku": "Q2-004",
+      "semana": 2,
+      "estoque_inicio": 36,
+      "nivel": 1.12,
+      "preco": 2127.89,
+      "vendas_esperadas": 2.62
+    },
+    {
+      "sku": "Q2-004",
+      "semana": 3,
+      "estoque_inicio": 33,
+      "nivel": 1.12,
+      "preco": 2127.89,
+      "vendas_esperadas": 2.66
+    },
+    {
+      "sku": "Q2-004",
+      "semana": 4,
+      "estoque_inicio": 30,
+      "nivel": 1.12,
+      "preco": 2127.89,
+      "vendas_esperadas": 2.61
+    },
+    {
+      "sku": "Q2-004",
+      "semana": 5,
+      "estoque_inicio": 27,
+      "nivel": 1.12,
+      "preco": 2127.89,
+      "vendas_esperadas": 2.64
+    },
+    {
+      "sku": "Q2-004",
+      "semana": 6,
+      "estoque_inicio": 24,
+      "nivel": 1.12,
+      "preco": 2127.89,
+      "vendas_esperadas": 2.65
+    },
+    {
+      "sku": "Q2-004",
+      "semana": 7,
+      "estoque_inicio": 21,
+      "nivel": 1.12,
+      "preco": 2127.89,
+      "vendas_esperadas": 2.67
+    },
+    {
+      "sku": "Q2-004",
+      "semana": 8,
+      "estoque_inicio": 18,
+      "nivel": 1.12,
+      "preco": 2127.89,
+      "vendas_esperadas": 2.68
+    },
+    {
+      "sku": "Q2-004",
+      "semana": 9,
+      "estoque_inicio": 15,
+      "nivel": 1.12,
+      "preco": 2127.89,
+      "vendas_esperadas": 2.61
+    },
+    {
+      "sku": "Q2-004",
+      "semana": 10,
+      "estoque_inicio": 12,
+      "nivel": 1.12,
+      "preco": 2127.89,
+      "vendas_esperadas": 2.71
+    },
+    {
+      "sku": "Q2-004",
+      "semana": 11,
+      "estoque_inicio": 9,
+      "nivel": 1.12,
+      "preco": 2127.89,
+      "vendas_esperadas": 2.62
+    },
+    {
+      "sku": "Q2-004",
+      "semana": 12,
+      "estoque_inicio": 6,
+      "nivel": 1.12,
+      "preco": 2127.89,
+      "vendas_esperadas": 2.6
+    },
+    {
+      "sku": "Q2-005",
+      "semana": 1,
+      "estoque_inicio": 27,
+      "nivel": 1.12,
+      "preco": 931.73,
+      "vendas_esperadas": 2.72
+    },
+    {
+      "sku": "Q2-005",
+      "semana": 2,
+      "estoque_inicio": 24,
+      "nivel": 1.12,
+      "preco": 931.73,
+      "vendas_esperadas": 2.76
+    },
+    {
+      "sku": "Q2-005",
+      "semana": 3,
+      "estoque_inicio": 21,
+      "nivel": 1.12,
+      "preco": 931.73,
+      "vendas_esperadas": 2.81
+    },
+    {
+      "sku": "Q2-005",
+      "semana": 4,
+      "estoque_inicio": 18,
+      "nivel": 1.12,
+      "preco": 931.73,
+      "vendas_esperadas": 2.73
+    },
+    {
+      "sku": "Q2-005",
+      "semana": 5,
+      "estoque_inicio": 15,
+      "nivel": 1.12,
+      "preco": 931.73,
+      "vendas_esperadas": 2.7
+    },
+    {
+      "sku": "Q2-005",
+      "semana": 6,
+      "estoque_inicio": 12,
+      "nivel": 1.12,
+      "preco": 931.73,
+      "vendas_esperadas": 2.73
+    },
+    {
+      "sku": "Q2-005",
+      "semana": 7,
+      "estoque_inicio": 9,
+      "nivel": 1.12,
+      "preco": 931.73,
+      "vendas_esperadas": 2.73
+    },
+    {
+      "sku": "Q2-005",
+      "semana": 8,
+      "estoque_inicio": 6,
+      "nivel": 1.12,
+      "preco": 931.73,
+      "vendas_esperadas": 2.76
+    },
+    {
+      "sku": "Q2-005",
+      "semana": 9,
+      "estoque_inicio": 3,
+      "nivel": 1.12,
+      "preco": 931.73,
+      "vendas_esperadas": 2.19
+    },
+    {
+      "sku": "Q2-005",
+      "semana": 10,
+      "estoque_inicio": 1,
+      "nivel": 1.12,
+      "preco": 931.73,
+      "vendas_esperadas": 0.93
+    },
+    {
+      "sku": "Q2-005",
+      "semana": 11,
+      "estoque_inicio": 0,
+      "nivel": "esgotado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-005",
+      "semana": 12,
+      "estoque_inicio": 0,
+      "nivel": "esgotado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-006",
+      "semana": 1,
+      "estoque_inicio": 89,
+      "nivel": 1.12,
+      "preco": 554.29,
+      "vendas_esperadas": 9.33
+    },
+    {
+      "sku": "Q2-006",
+      "semana": 2,
+      "estoque_inicio": 80,
+      "nivel": 1.12,
+      "preco": 554.29,
+      "vendas_esperadas": 9.34
+    },
+    {
+      "sku": "Q2-006",
+      "semana": 3,
+      "estoque_inicio": 71,
+      "nivel": 1.12,
+      "preco": 554.29,
+      "vendas_esperadas": 9.36
+    },
+    {
+      "sku": "Q2-006",
+      "semana": 4,
+      "estoque_inicio": 62,
+      "nivel": 1.12,
+      "preco": 554.29,
+      "vendas_esperadas": 9.38
+    },
+    {
+      "sku": "Q2-006",
+      "semana": 5,
+      "estoque_inicio": 53,
+      "nivel": 1.12,
+      "preco": 554.29,
+      "vendas_esperadas": 9.4
+    },
+    {
+      "sku": "Q2-006",
+      "semana": 6,
+      "estoque_inicio": 44,
+      "nivel": 1.12,
+      "preco": 554.29,
+      "vendas_esperadas": 9.44
+    },
+    {
+      "sku": "Q2-006",
+      "semana": 7,
+      "estoque_inicio": 35,
+      "nivel": 1.12,
+      "preco": 554.29,
+      "vendas_esperadas": 9.43
+    },
+    {
+      "sku": "Q2-006",
+      "semana": 8,
+      "estoque_inicio": 26,
+      "nivel": 1.12,
+      "preco": 554.29,
+      "vendas_esperadas": 9.56
+    },
+    {
+      "sku": "Q2-006",
+      "semana": 9,
+      "estoque_inicio": 16,
+      "nivel": 1.12,
+      "preco": 554.29,
+      "vendas_esperadas": 9.28
+    },
+    {
+      "sku": "Q2-006",
+      "semana": 10,
+      "estoque_inicio": 7,
+      "nivel": 1.12,
+      "preco": 554.29,
+      "vendas_esperadas": 6.56
+    },
+    {
+      "sku": "Q2-006",
+      "semana": 11,
+      "estoque_inicio": 0,
+      "nivel": "esgotado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-006",
+      "semana": 12,
+      "estoque_inicio": 0,
+      "nivel": "esgotado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-007",
+      "semana": 1,
+      "estoque_inicio": 32,
+      "nivel": 1.12,
+      "preco": 1668.69,
+      "vendas_esperadas": 2.44
+    },
+    {
+      "sku": "Q2-007",
+      "semana": 2,
+      "estoque_inicio": 30,
+      "nivel": 1.12,
+      "preco": 1668.69,
+      "vendas_esperadas": 2.38
+    },
+    {
+      "sku": "Q2-007",
+      "semana": 3,
+      "estoque_inicio": 28,
+      "nivel": 1.12,
+      "preco": 1668.69,
+      "vendas_esperadas": 2.49
+    },
+    {
+      "sku": "Q2-007",
+      "semana": 4,
+      "estoque_inicio": 26,
+      "nivel": 1.12,
+      "preco": 1668.69,
+      "vendas_esperadas": 2.49
+    },
+    {
+      "sku": "Q2-007",
+      "semana": 5,
+      "estoque_inicio": 24,
+      "nivel": 1.12,
+      "preco": 1668.69,
+      "vendas_esperadas": 2.53
+    },
+    {
+      "sku": "Q2-007",
+      "semana": 6,
+      "estoque_inicio": 21,
+      "nivel": 1.12,
+      "preco": 1668.69,
+      "vendas_esperadas": 2.44
+    },
+    {
+      "sku": "Q2-007",
+      "semana": 7,
+      "estoque_inicio": 19,
+      "nivel": 1.12,
+      "preco": 1668.69,
+      "vendas_esperadas": 2.5
+    },
+    {
+      "sku": "Q2-007",
+      "semana": 8,
+      "estoque_inicio": 17,
+      "nivel": 1.12,
+      "preco": 1668.69,
+      "vendas_esperadas": 2.49
+    },
+    {
+      "sku": "Q2-007",
+      "semana": 9,
+      "estoque_inicio": 15,
+      "nivel": 1.12,
+      "preco": 1668.69,
+      "vendas_esperadas": 2.54
+    },
+    {
+      "sku": "Q2-007",
+      "semana": 10,
+      "estoque_inicio": 12,
+      "nivel": 1.12,
+      "preco": 1668.69,
+      "vendas_esperadas": 2.49
+    },
+    {
+      "sku": "Q2-007",
+      "semana": 11,
+      "estoque_inicio": 10,
+      "nivel": 1.12,
+      "preco": 1668.69,
+      "vendas_esperadas": 2.52
+    },
+    {
+      "sku": "Q2-007",
+      "semana": 12,
+      "estoque_inicio": 7,
+      "nivel": 1.12,
+      "preco": 1668.69,
+      "vendas_esperadas": 2.5
+    },
+    {
+      "sku": "Q2-008",
+      "semana": 1,
+      "estoque_inicio": 46,
+      "nivel": "pausado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-008",
+      "semana": 2,
+      "estoque_inicio": 46,
+      "nivel": "pausado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-008",
+      "semana": 3,
+      "estoque_inicio": 46,
+      "nivel": "pausado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-008",
+      "semana": 4,
+      "estoque_inicio": 46,
+      "nivel": "pausado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-008",
+      "semana": 5,
+      "estoque_inicio": 46,
+      "nivel": "pausado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-008",
+      "semana": 6,
+      "estoque_inicio": 46,
+      "nivel": "pausado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-008",
+      "semana": 7,
+      "estoque_inicio": 46,
+      "nivel": "pausado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-008",
+      "semana": 8,
+      "estoque_inicio": 46,
+      "nivel": "pausado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-008",
+      "semana": 9,
+      "estoque_inicio": 46,
+      "nivel": "pausado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-008",
+      "semana": 10,
+      "estoque_inicio": 46,
+      "nivel": "pausado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-008",
+      "semana": 11,
+      "estoque_inicio": 46,
+      "nivel": "pausado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-008",
+      "semana": 12,
+      "estoque_inicio": 46,
+      "nivel": "pausado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-009",
+      "semana": 1,
+      "estoque_inicio": 84,
+      "nivel": 1.12,
+      "preco": 35.73,
+      "vendas_esperadas": 6.41
+    },
+    {
+      "sku": "Q2-009",
+      "semana": 2,
+      "estoque_inicio": 78,
+      "nivel": 1.12,
+      "preco": 35.73,
+      "vendas_esperadas": 6.41
+    },
+    {
+      "sku": "Q2-009",
+      "semana": 3,
+      "estoque_inicio": 72,
+      "nivel": 1.12,
+      "preco": 35.73,
+      "vendas_esperadas": 6.45
+    },
+    {
+      "sku": "Q2-009",
+      "semana": 4,
+      "estoque_inicio": 66,
+      "nivel": 1.12,
+      "preco": 35.73,
+      "vendas_esperadas": 6.43
+    },
+    {
+      "sku": "Q2-009",
+      "semana": 5,
+      "estoque_inicio": 60,
+      "nivel": 1.12,
+      "preco": 35.73,
+      "vendas_esperadas": 6.47
+    },
+    {
+      "sku": "Q2-009",
+      "semana": 6,
+      "estoque_inicio": 54,
+      "nivel": 1.12,
+      "preco": 35.73,
+      "vendas_esperadas": 6.47
+    },
+    {
+      "sku": "Q2-009",
+      "semana": 7,
+      "estoque_inicio": 48,
+      "nivel": 1.12,
+      "preco": 35.73,
+      "vendas_esperadas": 6.44
+    },
+    {
+      "sku": "Q2-009",
+      "semana": 8,
+      "estoque_inicio": 42,
+      "nivel": 1.12,
+      "preco": 35.73,
+      "vendas_esperadas": 6.49
+    },
+    {
+      "sku": "Q2-009",
+      "semana": 9,
+      "estoque_inicio": 36,
+      "nivel": 1.12,
+      "preco": 35.73,
+      "vendas_esperadas": 6.36
+    },
+    {
+      "sku": "Q2-009",
+      "semana": 10,
+      "estoque_inicio": 30,
+      "nivel": 1.12,
+      "preco": 35.73,
+      "vendas_esperadas": 6.59
+    },
+    {
+      "sku": "Q2-009",
+      "semana": 11,
+      "estoque_inicio": 23,
+      "nivel": 1.12,
+      "preco": 35.73,
+      "vendas_esperadas": 6.53
+    },
+    {
+      "sku": "Q2-009",
+      "semana": 12,
+      "estoque_inicio": 16,
+      "nivel": 1.12,
+      "preco": 35.73,
+      "vendas_esperadas": 6.5
+    },
+    {
+      "sku": "Q2-010",
+      "semana": 1,
+      "estoque_inicio": 399,
+      "nivel": 1.12,
+      "preco": 162.29,
+      "vendas_esperadas": 19.14
+    },
+    {
+      "sku": "Q2-010",
+      "semana": 2,
+      "estoque_inicio": 380,
+      "nivel": 1.12,
+      "preco": 162.29,
+      "vendas_esperadas": 19.18
+    },
+    {
+      "sku": "Q2-010",
+      "semana": 3,
+      "estoque_inicio": 361,
+      "nivel": 1.12,
+      "preco": 162.29,
+      "vendas_esperadas": 19.27
+    },
+    {
+      "sku": "Q2-010",
+      "semana": 4,
+      "estoque_inicio": 342,
+      "nivel": 1.12,
+      "preco": 162.29,
+      "vendas_esperadas": 19.17
+    },
+    {
+      "sku": "Q2-010",
+      "semana": 5,
+      "estoque_inicio": 323,
+      "nivel": 1.12,
+      "preco": 162.29,
+      "vendas_esperadas": 19.37
+    },
+    {
+      "sku": "Q2-010",
+      "semana": 6,
+      "estoque_inicio": 304,
+      "nivel": 1.12,
+      "preco": 162.29,
+      "vendas_esperadas": 19.29
+    },
+    {
+      "sku": "Q2-010",
+      "semana": 7,
+      "estoque_inicio": 285,
+      "nivel": 1.12,
+      "preco": 162.29,
+      "vendas_esperadas": 19.29
+    },
+    {
+      "sku": "Q2-010",
+      "semana": 8,
+      "estoque_inicio": 266,
+      "nivel": 1.12,
+      "preco": 162.29,
+      "vendas_esperadas": 19.32
+    },
+    {
+      "sku": "Q2-010",
+      "semana": 9,
+      "estoque_inicio": 247,
+      "nivel": 1.12,
+      "preco": 162.29,
+      "vendas_esperadas": 19.46
+    },
+    {
+      "sku": "Q2-010",
+      "semana": 10,
+      "estoque_inicio": 228,
+      "nivel": 1.12,
+      "preco": 162.29,
+      "vendas_esperadas": 19.49
+    },
+    {
+      "sku": "Q2-010",
+      "semana": 11,
+      "estoque_inicio": 209,
+      "nivel": 1.12,
+      "preco": 162.29,
+      "vendas_esperadas": 19.26
+    },
+    {
+      "sku": "Q2-010",
+      "semana": 12,
+      "estoque_inicio": 190,
+      "nivel": 1.12,
+      "preco": 162.29,
+      "vendas_esperadas": 19.41
+    },
+    {
+      "sku": "Q2-011",
+      "semana": 1,
+      "estoque_inicio": 271,
+      "nivel": 1.12,
+      "preco": 333.65,
+      "vendas_esperadas": 11.72
+    },
+    {
+      "sku": "Q2-011",
+      "semana": 2,
+      "estoque_inicio": 259,
+      "nivel": 1.12,
+      "preco": 333.65,
+      "vendas_esperadas": 11.81
+    },
+    {
+      "sku": "Q2-011",
+      "semana": 3,
+      "estoque_inicio": 247,
+      "nivel": 1.12,
+      "preco": 333.65,
+      "vendas_esperadas": 11.66
+    },
+    {
+      "sku": "Q2-011",
+      "semana": 4,
+      "estoque_inicio": 235,
+      "nivel": 1.12,
+      "preco": 333.65,
+      "vendas_esperadas": 11.67
+    },
+    {
+      "sku": "Q2-011",
+      "semana": 5,
+      "estoque_inicio": 223,
+      "nivel": 1.12,
+      "preco": 333.65,
+      "vendas_esperadas": 11.82
+    },
+    {
+      "sku": "Q2-011",
+      "semana": 6,
+      "estoque_inicio": 211,
+      "nivel": 1.12,
+      "preco": 333.65,
+      "vendas_esperadas": 11.87
+    },
+    {
+      "sku": "Q2-011",
+      "semana": 7,
+      "estoque_inicio": 199,
+      "nivel": 1.12,
+      "preco": 333.65,
+      "vendas_esperadas": 11.83
+    },
+    {
+      "sku": "Q2-011",
+      "semana": 8,
+      "estoque_inicio": 187,
+      "nivel": 1.12,
+      "preco": 333.65,
+      "vendas_esperadas": 11.88
+    },
+    {
+      "sku": "Q2-011",
+      "semana": 9,
+      "estoque_inicio": 175,
+      "nivel": 1.12,
+      "preco": 333.65,
+      "vendas_esperadas": 11.79
+    },
+    {
+      "sku": "Q2-011",
+      "semana": 10,
+      "estoque_inicio": 163,
+      "nivel": 1.12,
+      "preco": 333.65,
+      "vendas_esperadas": 11.79
+    },
+    {
+      "sku": "Q2-011",
+      "semana": 11,
+      "estoque_inicio": 151,
+      "nivel": 1.12,
+      "preco": 333.65,
+      "vendas_esperadas": 11.91
+    },
+    {
+      "sku": "Q2-011",
+      "semana": 12,
+      "estoque_inicio": 139,
+      "nivel": 1.12,
+      "preco": 333.65,
+      "vendas_esperadas": 11.98
+    },
+    {
+      "sku": "Q2-012",
+      "semana": 1,
+      "estoque_inicio": 41,
+      "nivel": 1.12,
+      "preco": 733.49,
+      "vendas_esperadas": 4.1
+    },
+    {
+      "sku": "Q2-012",
+      "semana": 2,
+      "estoque_inicio": 37,
+      "nivel": 1.12,
+      "preco": 733.49,
+      "vendas_esperadas": 4.12
+    },
+    {
+      "sku": "Q2-012",
+      "semana": 3,
+      "estoque_inicio": 33,
+      "nivel": 1.12,
+      "preco": 733.49,
+      "vendas_esperadas": 4.12
+    },
+    {
+      "sku": "Q2-012",
+      "semana": 4,
+      "estoque_inicio": 29,
+      "nivel": 1.12,
+      "preco": 733.49,
+      "vendas_esperadas": 4.14
+    },
+    {
+      "sku": "Q2-012",
+      "semana": 5,
+      "estoque_inicio": 25,
+      "nivel": 1.12,
+      "preco": 733.49,
+      "vendas_esperadas": 4.15
+    },
+    {
+      "sku": "Q2-012",
+      "semana": 6,
+      "estoque_inicio": 21,
+      "nivel": 1.12,
+      "preco": 733.49,
+      "vendas_esperadas": 4.14
+    },
+    {
+      "sku": "Q2-012",
+      "semana": 7,
+      "estoque_inicio": 17,
+      "nivel": 1.12,
+      "preco": 733.49,
+      "vendas_esperadas": 4.06
+    },
+    {
+      "sku": "Q2-012",
+      "semana": 8,
+      "estoque_inicio": 13,
+      "nivel": 1.12,
+      "preco": 733.49,
+      "vendas_esperadas": 4.15
+    },
+    {
+      "sku": "Q2-012",
+      "semana": 9,
+      "estoque_inicio": 9,
+      "nivel": 1.12,
+      "preco": 733.49,
+      "vendas_esperadas": 4.12
+    },
+    {
+      "sku": "Q2-012",
+      "semana": 10,
+      "estoque_inicio": 5,
+      "nivel": 1.12,
+      "preco": 733.49,
+      "vendas_esperadas": 3.67
+    },
+    {
+      "sku": "Q2-012",
+      "semana": 11,
+      "estoque_inicio": 1,
+      "nivel": 1.12,
+      "preco": 733.49,
+      "vendas_esperadas": 0.99
+    },
+    {
+      "sku": "Q2-012",
+      "semana": 12,
+      "estoque_inicio": 0,
+      "nivel": "esgotado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-013",
+      "semana": 1,
+      "estoque_inicio": 55,
+      "nivel": 1.12,
+      "preco": 2590.45,
+      "vendas_esperadas": 3.45
+    },
+    {
+      "sku": "Q2-013",
+      "semana": 2,
+      "estoque_inicio": 52,
+      "nivel": 1.12,
+      "preco": 2590.45,
+      "vendas_esperadas": 3.43
+    },
+    {
+      "sku": "Q2-013",
+      "semana": 3,
+      "estoque_inicio": 49,
+      "nivel": 1.12,
+      "preco": 2590.45,
+      "vendas_esperadas": 3.39
+    },
+    {
+      "sku": "Q2-013",
+      "semana": 4,
+      "estoque_inicio": 46,
+      "nivel": 1.12,
+      "preco": 2590.45,
+      "vendas_esperadas": 3.49
+    },
+    {
+      "sku": "Q2-013",
+      "semana": 5,
+      "estoque_inicio": 43,
+      "nivel": 1.12,
+      "preco": 2590.45,
+      "vendas_esperadas": 3.51
+    },
+    {
+      "sku": "Q2-013",
+      "semana": 6,
+      "estoque_inicio": 39,
+      "nivel": 1.12,
+      "preco": 2590.45,
+      "vendas_esperadas": 3.53
+    },
+    {
+      "sku": "Q2-013",
+      "semana": 7,
+      "estoque_inicio": 35,
+      "nivel": 1.12,
+      "preco": 2590.45,
+      "vendas_esperadas": 3.56
+    },
+    {
+      "sku": "Q2-013",
+      "semana": 8,
+      "estoque_inicio": 31,
+      "nivel": 1.12,
+      "preco": 2590.45,
+      "vendas_esperadas": 3.46
+    },
+    {
+      "sku": "Q2-013",
+      "semana": 9,
+      "estoque_inicio": 28,
+      "nivel": 1.12,
+      "preco": 2590.45,
+      "vendas_esperadas": 3.54
+    },
+    {
+      "sku": "Q2-013",
+      "semana": 10,
+      "estoque_inicio": 24,
+      "nivel": 1.12,
+      "preco": 2590.45,
+      "vendas_esperadas": 3.52
+    },
+    {
+      "sku": "Q2-013",
+      "semana": 11,
+      "estoque_inicio": 20,
+      "nivel": 1.12,
+      "preco": 2590.45,
+      "vendas_esperadas": 3.55
+    },
+    {
+      "sku": "Q2-013",
+      "semana": 12,
+      "estoque_inicio": 16,
+      "nivel": 1.12,
+      "preco": 2590.45,
+      "vendas_esperadas": 3.54
+    },
+    {
+      "sku": "Q2-014",
+      "semana": 1,
+      "estoque_inicio": 51,
+      "nivel": 1.12,
+      "preco": 2270.13,
+      "vendas_esperadas": 5.36
+    },
+    {
+      "sku": "Q2-014",
+      "semana": 2,
+      "estoque_inicio": 46,
+      "nivel": 1.12,
+      "preco": 2270.13,
+      "vendas_esperadas": 5.36
+    },
+    {
+      "sku": "Q2-014",
+      "semana": 3,
+      "estoque_inicio": 41,
+      "nivel": 1.12,
+      "preco": 2270.13,
+      "vendas_esperadas": 5.44
+    },
+    {
+      "sku": "Q2-014",
+      "semana": 4,
+      "estoque_inicio": 36,
+      "nivel": 1.12,
+      "preco": 2270.13,
+      "vendas_esperadas": 5.37
+    },
+    {
+      "sku": "Q2-014",
+      "semana": 5,
+      "estoque_inicio": 31,
+      "nivel": 1.12,
+      "preco": 2270.13,
+      "vendas_esperadas": 5.39
+    },
+    {
+      "sku": "Q2-014",
+      "semana": 6,
+      "estoque_inicio": 26,
+      "nivel": 1.12,
+      "preco": 2270.13,
+      "vendas_esperadas": 5.42
+    },
+    {
+      "sku": "Q2-014",
+      "semana": 7,
+      "estoque_inicio": 21,
+      "nivel": 1.12,
+      "preco": 2270.13,
+      "vendas_esperadas": 5.51
+    },
+    {
+      "sku": "Q2-014",
+      "semana": 8,
+      "estoque_inicio": 15,
+      "nivel": 1.12,
+      "preco": 2270.13,
+      "vendas_esperadas": 5.51
+    },
+    {
+      "sku": "Q2-014",
+      "semana": 9,
+      "estoque_inicio": 9,
+      "nivel": 1.12,
+      "preco": 2270.13,
+      "vendas_esperadas": 5.33
+    },
+    {
+      "sku": "Q2-014",
+      "semana": 10,
+      "estoque_inicio": 4,
+      "nivel": 1.12,
+      "preco": 2270.13,
+      "vendas_esperadas": 3.63
+    },
+    {
+      "sku": "Q2-014",
+      "semana": 11,
+      "estoque_inicio": 0,
+      "nivel": "esgotado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-014",
+      "semana": 12,
+      "estoque_inicio": 0,
+      "nivel": "esgotado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-015",
+      "semana": 1,
+      "estoque_inicio": 499,
+      "nivel": 1.12,
+      "preco": 511.73,
+      "vendas_esperadas": 46.08
+    },
+    {
+      "sku": "Q2-015",
+      "semana": 2,
+      "estoque_inicio": 453,
+      "nivel": 1.12,
+      "preco": 511.73,
+      "vendas_esperadas": 46.1
+    },
+    {
+      "sku": "Q2-015",
+      "semana": 3,
+      "estoque_inicio": 407,
+      "nivel": 1.12,
+      "preco": 511.73,
+      "vendas_esperadas": 46.08
+    },
+    {
+      "sku": "Q2-015",
+      "semana": 4,
+      "estoque_inicio": 361,
+      "nivel": 1.12,
+      "preco": 511.73,
+      "vendas_esperadas": 45.93
+    },
+    {
+      "sku": "Q2-015",
+      "semana": 5,
+      "estoque_inicio": 315,
+      "nivel": 1.12,
+      "preco": 511.73,
+      "vendas_esperadas": 46.29
+    },
+    {
+      "sku": "Q2-015",
+      "semana": 6,
+      "estoque_inicio": 269,
+      "nivel": 1.12,
+      "preco": 511.73,
+      "vendas_esperadas": 45.97
+    },
+    {
+      "sku": "Q2-015",
+      "semana": 7,
+      "estoque_inicio": 223,
+      "nivel": 1.12,
+      "preco": 511.73,
+      "vendas_esperadas": 46.05
+    },
+    {
+      "sku": "Q2-015",
+      "semana": 8,
+      "estoque_inicio": 177,
+      "nivel": 1.12,
+      "preco": 511.73,
+      "vendas_esperadas": 46.44
+    },
+    {
+      "sku": "Q2-015",
+      "semana": 9,
+      "estoque_inicio": 131,
+      "nivel": 1.12,
+      "preco": 511.73,
+      "vendas_esperadas": 46.58
+    },
+    {
+      "sku": "Q2-015",
+      "semana": 10,
+      "estoque_inicio": 84,
+      "nivel": 1.12,
+      "preco": 511.73,
+      "vendas_esperadas": 46.77
+    },
+    {
+      "sku": "Q2-015",
+      "semana": 11,
+      "estoque_inicio": 37,
+      "nivel": 1.12,
+      "preco": 511.73,
+      "vendas_esperadas": 35.91
+    },
+    {
+      "sku": "Q2-015",
+      "semana": 12,
+      "estoque_inicio": 1,
+      "nivel": 1.12,
+      "preco": 511.73,
+      "vendas_esperadas": 1.0
+    },
+    {
+      "sku": "Q2-016",
+      "semana": 1,
+      "estoque_inicio": 312,
+      "nivel": 1.12,
+      "preco": 220.53,
+      "vendas_esperadas": 10.67
+    },
+    {
+      "sku": "Q2-016",
+      "semana": 2,
+      "estoque_inicio": 301,
+      "nivel": 1.12,
+      "preco": 220.53,
+      "vendas_esperadas": 10.58
+    },
+    {
+      "sku": "Q2-016",
+      "semana": 3,
+      "estoque_inicio": 290,
+      "nivel": 1.12,
+      "preco": 220.53,
+      "vendas_esperadas": 10.67
+    },
+    {
+      "sku": "Q2-016",
+      "semana": 4,
+      "estoque_inicio": 279,
+      "nivel": 1.12,
+      "preco": 220.53,
+      "vendas_esperadas": 10.7
+    },
+    {
+      "sku": "Q2-016",
+      "semana": 5,
+      "estoque_inicio": 268,
+      "nivel": 1.12,
+      "preco": 220.53,
+      "vendas_esperadas": 10.85
+    },
+    {
+      "sku": "Q2-016",
+      "semana": 6,
+      "estoque_inicio": 257,
+      "nivel": 1.12,
+      "preco": 220.53,
+      "vendas_esperadas": 10.63
+    },
+    {
+      "sku": "Q2-016",
+      "semana": 7,
+      "estoque_inicio": 246,
+      "nivel": 1.12,
+      "preco": 220.53,
+      "vendas_esperadas": 10.87
+    },
+    {
+      "sku": "Q2-016",
+      "semana": 8,
+      "estoque_inicio": 235,
+      "nivel": 1.12,
+      "preco": 220.53,
+      "vendas_esperadas": 10.8
+    },
+    {
+      "sku": "Q2-016",
+      "semana": 9,
+      "estoque_inicio": 224,
+      "nivel": 1.12,
+      "preco": 220.53,
+      "vendas_esperadas": 10.69
+    },
+    {
+      "sku": "Q2-016",
+      "semana": 10,
+      "estoque_inicio": 213,
+      "nivel": 1.12,
+      "preco": 220.53,
+      "vendas_esperadas": 10.77
+    },
+    {
+      "sku": "Q2-016",
+      "semana": 11,
+      "estoque_inicio": 202,
+      "nivel": 1.12,
+      "preco": 220.53,
+      "vendas_esperadas": 10.84
+    },
+    {
+      "sku": "Q2-016",
+      "semana": 12,
+      "estoque_inicio": 191,
+      "nivel": 1.12,
+      "preco": 220.53,
+      "vendas_esperadas": 10.84
+    },
+    {
+      "sku": "Q2-017",
+      "semana": 1,
+      "estoque_inicio": 75,
+      "nivel": 1.12,
+      "preco": 1844.53,
+      "vendas_esperadas": 5.48
+    },
+    {
+      "sku": "Q2-017",
+      "semana": 2,
+      "estoque_inicio": 70,
+      "nivel": 1.12,
+      "preco": 1844.53,
+      "vendas_esperadas": 5.63
+    },
+    {
+      "sku": "Q2-017",
+      "semana": 3,
+      "estoque_inicio": 64,
+      "nivel": 1.12,
+      "preco": 1844.53,
+      "vendas_esperadas": 5.53
+    },
+    {
+      "sku": "Q2-017",
+      "semana": 4,
+      "estoque_inicio": 58,
+      "nivel": 1.12,
+      "preco": 1844.53,
+      "vendas_esperadas": 5.54
+    },
+    {
+      "sku": "Q2-017",
+      "semana": 5,
+      "estoque_inicio": 52,
+      "nivel": 1.12,
+      "preco": 1844.53,
+      "vendas_esperadas": 5.56
+    },
+    {
+      "sku": "Q2-017",
+      "semana": 6,
+      "estoque_inicio": 46,
+      "nivel": 1.12,
+      "preco": 1844.53,
+      "vendas_esperadas": 5.63
+    },
+    {
+      "sku": "Q2-017",
+      "semana": 7,
+      "estoque_inicio": 40,
+      "nivel": 1.12,
+      "preco": 1844.53,
+      "vendas_esperadas": 5.62
+    },
+    {
+      "sku": "Q2-017",
+      "semana": 8,
+      "estoque_inicio": 34,
+      "nivel": 1.12,
+      "preco": 1844.53,
+      "vendas_esperadas": 5.7
+    },
+    {
+      "sku": "Q2-017",
+      "semana": 9,
+      "estoque_inicio": 28,
+      "nivel": 1.12,
+      "preco": 1844.53,
+      "vendas_esperadas": 5.62
+    },
+    {
+      "sku": "Q2-017",
+      "semana": 10,
+      "estoque_inicio": 22,
+      "nivel": 1.12,
+      "preco": 1844.53,
+      "vendas_esperadas": 5.66
+    },
+    {
+      "sku": "Q2-017",
+      "semana": 11,
+      "estoque_inicio": 16,
+      "nivel": 1.12,
+      "preco": 1844.53,
+      "vendas_esperadas": 5.71
+    },
+    {
+      "sku": "Q2-017",
+      "semana": 12,
+      "estoque_inicio": 10,
+      "nivel": 1.12,
+      "preco": 1844.53,
+      "vendas_esperadas": 5.56
+    },
+    {
+      "sku": "Q2-018",
+      "semana": 1,
+      "estoque_inicio": 265,
+      "nivel": 1.12,
+      "preco": 552.05,
+      "vendas_esperadas": 8.59
+    },
+    {
+      "sku": "Q2-018",
+      "semana": 2,
+      "estoque_inicio": 256,
+      "nivel": 1.12,
+      "preco": 552.05,
+      "vendas_esperadas": 8.69
+    },
+    {
+      "sku": "Q2-018",
+      "semana": 3,
+      "estoque_inicio": 247,
+      "nivel": 1.12,
+      "preco": 552.05,
+      "vendas_esperadas": 8.77
+    },
+    {
+      "sku": "Q2-018",
+      "semana": 4,
+      "estoque_inicio": 238,
+      "nivel": 1.12,
+      "preco": 552.05,
+      "vendas_esperadas": 8.69
+    },
+    {
+      "sku": "Q2-018",
+      "semana": 5,
+      "estoque_inicio": 229,
+      "nivel": 1.12,
+      "preco": 552.05,
+      "vendas_esperadas": 8.62
+    },
+    {
+      "sku": "Q2-018",
+      "semana": 6,
+      "estoque_inicio": 220,
+      "nivel": 1.12,
+      "preco": 552.05,
+      "vendas_esperadas": 8.7
+    },
+    {
+      "sku": "Q2-018",
+      "semana": 7,
+      "estoque_inicio": 211,
+      "nivel": 1.12,
+      "preco": 552.05,
+      "vendas_esperadas": 8.83
+    },
+    {
+      "sku": "Q2-018",
+      "semana": 8,
+      "estoque_inicio": 202,
+      "nivel": 1.12,
+      "preco": 552.05,
+      "vendas_esperadas": 8.68
+    },
+    {
+      "sku": "Q2-018",
+      "semana": 9,
+      "estoque_inicio": 193,
+      "nivel": 1.12,
+      "preco": 552.05,
+      "vendas_esperadas": 8.63
+    },
+    {
+      "sku": "Q2-018",
+      "semana": 10,
+      "estoque_inicio": 184,
+      "nivel": 1.12,
+      "preco": 552.05,
+      "vendas_esperadas": 8.75
+    },
+    {
+      "sku": "Q2-018",
+      "semana": 11,
+      "estoque_inicio": 175,
+      "nivel": 1.12,
+      "preco": 552.05,
+      "vendas_esperadas": 8.75
+    },
+    {
+      "sku": "Q2-018",
+      "semana": 12,
+      "estoque_inicio": 166,
+      "nivel": 1.12,
+      "preco": 552.05,
+      "vendas_esperadas": 8.82
+    },
+    {
+      "sku": "Q2-019",
+      "semana": 1,
+      "estoque_inicio": 40,
+      "nivel": 1.12,
+      "preco": 931.73,
+      "vendas_esperadas": 5.07
+    },
+    {
+      "sku": "Q2-019",
+      "semana": 2,
+      "estoque_inicio": 35,
+      "nivel": 1.12,
+      "preco": 931.73,
+      "vendas_esperadas": 5.09
+    },
+    {
+      "sku": "Q2-019",
+      "semana": 3,
+      "estoque_inicio": 30,
+      "nivel": 1.12,
+      "preco": 931.73,
+      "vendas_esperadas": 5.06
+    },
+    {
+      "sku": "Q2-019",
+      "semana": 4,
+      "estoque_inicio": 25,
+      "nivel": 1.12,
+      "preco": 931.73,
+      "vendas_esperadas": 5.12
+    },
+    {
+      "sku": "Q2-019",
+      "semana": 5,
+      "estoque_inicio": 20,
+      "nivel": 1.12,
+      "preco": 931.73,
+      "vendas_esperadas": 5.02
+    },
+    {
+      "sku": "Q2-019",
+      "semana": 6,
+      "estoque_inicio": 15,
+      "nivel": "pausado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-019",
+      "semana": 7,
+      "estoque_inicio": 15,
+      "nivel": 1.12,
+      "preco": 931.73,
+      "vendas_esperadas": 5.08
+    },
+    {
+      "sku": "Q2-019",
+      "semana": 8,
+      "estoque_inicio": 10,
+      "nivel": 1.12,
+      "preco": 931.73,
+      "vendas_esperadas": 5.05
+    },
+    {
+      "sku": "Q2-019",
+      "semana": 9,
+      "estoque_inicio": 5,
+      "nivel": 1.12,
+      "preco": 931.73,
+      "vendas_esperadas": 4.08
+    },
+    {
+      "sku": "Q2-019",
+      "semana": 10,
+      "estoque_inicio": 1,
+      "nivel": 1.12,
+      "preco": 931.73,
+      "vendas_esperadas": 1.0
+    },
+    {
+      "sku": "Q2-019",
+      "semana": 11,
+      "estoque_inicio": 0,
+      "nivel": "esgotado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-019",
+      "semana": 12,
+      "estoque_inicio": 0,
+      "nivel": "esgotado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    },
+    {
+      "sku": "Q2-020",
+      "semana": 1,
+      "estoque_inicio": 50,
+      "nivel": 1.12,
+      "preco": 278.77,
+      "vendas_esperadas": 3.45
+    },
+    {
+      "sku": "Q2-020",
+      "semana": 2,
+      "estoque_inicio": 47,
+      "nivel": 1.12,
+      "preco": 278.77,
+      "vendas_esperadas": 3.46
+    },
+    {
+      "sku": "Q2-020",
+      "semana": 3,
+      "estoque_inicio": 44,
+      "nivel": 1.12,
+      "preco": 278.77,
+      "vendas_esperadas": 3.47
+    },
+    {
+      "sku": "Q2-020",
+      "semana": 4,
+      "estoque_inicio": 41,
+      "nivel": 1.12,
+      "preco": 278.77,
+      "vendas_esperadas": 3.52
+    },
+    {
+      "sku": "Q2-020",
+      "semana": 5,
+      "estoque_inicio": 37,
+      "nivel": 1.12,
+      "preco": 278.77,
+      "vendas_esperadas": 3.5
+    },
+    {
+      "sku": "Q2-020",
+      "semana": 6,
+      "estoque_inicio": 33,
+      "nivel": 1.12,
+      "preco": 278.77,
+      "vendas_esperadas": 3.52
+    },
+    {
+      "sku": "Q2-020",
+      "semana": 7,
+      "estoque_inicio": 29,
+      "nivel": 1.12,
+      "preco": 278.77,
+      "vendas_esperadas": 3.49
+    },
+    {
+      "sku": "Q2-020",
+      "semana": 8,
+      "estoque_inicio": 26,
+      "nivel": 1.12,
+      "preco": 278.77,
+      "vendas_esperadas": 3.52
+    },
+    {
+      "sku": "Q2-020",
+      "semana": 9,
+      "estoque_inicio": 22,
+      "nivel": 1.12,
+      "preco": 278.77,
+      "vendas_esperadas": 3.55
+    },
+    {
+      "sku": "Q2-020",
+      "semana": 10,
+      "estoque_inicio": 18,
+      "nivel": 1.12,
+      "preco": 278.77,
+      "vendas_esperadas": 3.55
+    },
+    {
+      "sku": "Q2-020",
+      "semana": 11,
+      "estoque_inicio": 14,
+      "nivel": 1.12,
+      "preco": 278.77,
+      "vendas_esperadas": 3.6
+    },
+    {
+      "sku": "Q2-020",
+      "semana": 12,
+      "estoque_inicio": 10,
+      "nivel": 1.12,
+      "preco": 278.77,
+      "vendas_esperadas": 3.59
+    },
+    {
+      "sku": "Q2-021",
+      "semana": 1,
+      "estoque_inicio": 59,
+      "nivel": 1.12,
+      "preco": 1623.89,
+      "vendas_esperadas": 2.51
+    },
+    {
+      "sku": "Q2-021",
+      "semana": 2,
+      "estoque_inicio": 56,
+      "nivel": 1.12,
+      "preco": 1623.89,
+      "vendas_esperadas": 2.52
+    },
+    {
+      "sku": "Q2-021",
+      "semana": 3,
+      "estoque_inicio": 53,
+      "nivel": 1.12,
+      "preco": 1623.89,
+      "vendas_esperadas": 2.51
+    },
+    {
+      "sku": "Q2-021",
+      "semana": 4,
+      "estoque_inicio": 50,
+      "nivel": 1.12,
+      "preco": 1623.89,
+      "vendas_esperadas": 2.61
+    },
+    {
+      "sku": "Q2-021",
+      "semana": 5,
+      "estoque_inicio": 47,
+      "nivel": 1.12,
+      "preco": 1623.89,
+      "vendas_esperadas": 2.54
+    },
+    {
+      "sku": "Q2-021",
+      "semana": 6,
+      "estoque_inicio": 44,
+      "nivel": 1.12,
+      "preco": 1623.89,
+      "vendas_esperadas": 2.57
+    },
+    {
+      "sku": "Q2-021",
+      "semana": 7,
+      "estoque_inicio": 41,
+      "nivel": 1.12,
+      "preco": 1623.89,
+      "vendas_esperadas": 2.56
+    },
+    {
+      "sku": "Q2-021",
+      "semana": 8,
+      "estoque_inicio": 38,
+      "nivel": 1.12,
+      "preco": 1623.89,
+      "vendas_esperadas": 2.54
+    },
+    {
+      "sku": "Q2-021",
+      "semana": 9,
+      "estoque_inicio": 35,
+      "nivel": 1.12,
+      "preco": 1623.89,
+      "vendas_esperadas": 2.56
+    },
+    {
+      "sku": "Q2-021",
+      "semana": 10,
+      "estoque_inicio": 32,
+      "nivel": 1.12,
+      "preco": 1623.89,
+      "vendas_esperadas": 2.57
+    },
+    {
+      "sku": "Q2-021",
+      "semana": 11,
+      "estoque_inicio": 29,
+      "nivel": 1.12,
+      "preco": 1623.89,
+      "vendas_esperadas": 2.55
+    },
+    {
+      "sku": "Q2-021",
+      "semana": 12,
+      "estoque_inicio": 26,
+      "nivel": 1.12,
+      "preco": 1623.89,
+      "vendas_esperadas": 2.64
+    },
+    {
+      "sku": "Q2-022",
+      "semana": 1,
+      "estoque_inicio": 66,
+      "nivel": 1.12,
+      "preco": 1750.45,
+      "vendas_esperadas": 2.45
+    },
+    {
+      "sku": "Q2-022",
+      "semana": 2,
+      "estoque_inicio": 64,
+      "nivel": 1.12,
+      "preco": 1750.45,
+      "vendas_esperadas": 2.46
+    },
+    {
+      "sku": "Q2-022",
+      "semana": 3,
+      "estoque_inicio": 62,
+      "nivel": 1.12,
+      "preco": 1750.45,
+      "vendas_esperadas": 2.54
+    },
+    {
+      "sku": "Q2-022",
+      "semana": 4,
+      "estoque_inicio": 59,
+      "nivel": 1.12,
+      "preco": 1750.45,
+      "vendas_esperadas": 2.47
+    },
+    {
+      "sku": "Q2-022",
+      "semana": 5,
+      "estoque_inicio": 57,
+      "nivel": 1.12,
+      "preco": 1750.45,
+      "vendas_esperadas": 2.54
+    },
+    {
+      "sku": "Q2-022",
+      "semana": 6,
+      "estoque_inicio": 54,
+      "nivel": 1.12,
+      "preco": 1750.45,
+      "vendas_esperadas": 2.54
+    },
+    {
+      "sku": "Q2-022",
+      "semana": 7,
+      "estoque_inicio": 51,
+      "nivel": 1.12,
+      "preco": 1750.45,
+      "vendas_esperadas": 2.44
+    },
+    {
+      "sku": "Q2-022",
+      "semana": 8,
+      "estoque_inicio": 49,
+      "nivel": 1.12,
+      "preco": 1750.45,
+      "vendas_esperadas": 2.62
+    },
+    {
+      "sku": "Q2-022",
+      "semana": 9,
+      "estoque_inicio": 46,
+      "nivel": 1.12,
+      "preco": 1750.45,
+      "vendas_esperadas": 2.59
+    },
+    {
+      "sku": "Q2-022",
+      "semana": 10,
+      "estoque_inicio": 43,
+      "nivel": 1.12,
+      "preco": 1750.45,
+      "vendas_esperadas": 2.53
+    },
+    {
+      "sku": "Q2-022",
+      "semana": 11,
+      "estoque_inicio": 40,
+      "nivel": 1.12,
+      "preco": 1750.45,
+      "vendas_esperadas": 2.53
+    },
+    {
+      "sku": "Q2-022",
+      "semana": 12,
+      "estoque_inicio": 37,
+      "nivel": 1.12,
+      "preco": 1750.45,
+      "vendas_esperadas": 2.57
+    },
+    {
+      "sku": "Q2-023",
+      "semana": 1,
+      "estoque_inicio": 53,
+      "nivel": 1.12,
+      "preco": 2291.41,
+      "vendas_esperadas": 2.36
+    },
+    {
+      "sku": "Q2-023",
+      "semana": 2,
+      "estoque_inicio": 51,
+      "nivel": 1.12,
+      "preco": 2291.41,
+      "vendas_esperadas": 2.43
+    },
+    {
+      "sku": "Q2-023",
+      "semana": 3,
+      "estoque_inicio": 49,
+      "nivel": 1.12,
+      "preco": 2291.41,
+      "vendas_esperadas": 2.4
+    },
+    {
+      "sku": "Q2-023",
+      "semana": 4,
+      "estoque_inicio": 47,
+      "nivel": 1.12,
+      "preco": 2291.41,
+      "vendas_esperadas": 2.44
+    },
+    {
+      "sku": "Q2-023",
+      "semana": 5,
+      "estoque_inicio": 45,
+      "nivel": 1.12,
+      "preco": 2291.41,
+      "vendas_esperadas": 2.48
+    },
+    {
+      "sku": "Q2-023",
+      "semana": 6,
+      "estoque_inicio": 43,
+      "nivel": 1.12,
+      "preco": 2291.41,
+      "vendas_esperadas": 2.39
+    },
+    {
+      "sku": "Q2-023",
+      "semana": 7,
+      "estoque_inicio": 41,
+      "nivel": 1.12,
+      "preco": 2291.41,
+      "vendas_esperadas": 2.47
+    },
+    {
+      "sku": "Q2-023",
+      "semana": 8,
+      "estoque_inicio": 39,
+      "nivel": 1.12,
+      "preco": 2291.41,
+      "vendas_esperadas": 2.42
+    },
+    {
+      "sku": "Q2-023",
+      "semana": 9,
+      "estoque_inicio": 37,
+      "nivel": 1.12,
+      "preco": 2291.41,
+      "vendas_esperadas": 2.46
+    },
+    {
+      "sku": "Q2-023",
+      "semana": 10,
+      "estoque_inicio": 35,
+      "nivel": 1.12,
+      "preco": 2291.41,
+      "vendas_esperadas": 2.42
+    },
+    {
+      "sku": "Q2-023",
+      "semana": 11,
+      "estoque_inicio": 33,
+      "nivel": 1.12,
+      "preco": 2291.41,
+      "vendas_esperadas": 2.45
+    },
+    {
+      "sku": "Q2-023",
+      "semana": 12,
+      "estoque_inicio": 31,
+      "nivel": 1.12,
+      "preco": 2291.41,
+      "vendas_esperadas": 2.48
+    },
+    {
+      "sku": "Q2-024",
+      "semana": 1,
+      "estoque_inicio": 83,
+      "nivel": 1.12,
+      "preco": 3069.81,
+      "vendas_esperadas": 7.71
+    },
+    {
+      "sku": "Q2-024",
+      "semana": 2,
+      "estoque_inicio": 75,
+      "nivel": 1.12,
+      "preco": 3069.81,
+      "vendas_esperadas": 7.61
+    },
+    {
+      "sku": "Q2-024",
+      "semana": 3,
+      "estoque_inicio": 67,
+      "nivel": 1.12,
+      "preco": 3069.81,
+      "vendas_esperadas": 7.82
+    },
+    {
+      "sku": "Q2-024",
+      "semana": 4,
+      "estoque_inicio": 59,
+      "nivel": 1.12,
+      "preco": 3069.81,
+      "vendas_esperadas": 7.73
+    },
+    {
+      "sku": "Q2-024",
+      "semana": 5,
+      "estoque_inicio": 51,
+      "nivel": 1.12,
+      "preco": 3069.81,
+      "vendas_esperadas": 7.83
+    },
+    {
+      "sku": "Q2-024",
+      "semana": 6,
+      "estoque_inicio": 43,
+      "nivel": 1.12,
+      "preco": 3069.81,
+      "vendas_esperadas": 7.79
+    },
+    {
+      "sku": "Q2-024",
+      "semana": 7,
+      "estoque_inicio": 35,
+      "nivel": 1.12,
+      "preco": 3069.81,
+      "vendas_esperadas": 7.73
+    },
+    {
+      "sku": "Q2-024",
+      "semana": 8,
+      "estoque_inicio": 27,
+      "nivel": 1.12,
+      "preco": 3069.81,
+      "vendas_esperadas": 7.72
+    },
+    {
+      "sku": "Q2-024",
+      "semana": 9,
+      "estoque_inicio": 19,
+      "nivel": 1.12,
+      "preco": 3069.81,
+      "vendas_esperadas": 7.77
+    },
+    {
+      "sku": "Q2-024",
+      "semana": 10,
+      "estoque_inicio": 11,
+      "nivel": 1.12,
+      "preco": 3069.81,
+      "vendas_esperadas": 7.45
+    },
+    {
+      "sku": "Q2-024",
+      "semana": 11,
+      "estoque_inicio": 4,
+      "nivel": 1.12,
+      "preco": 3069.81,
+      "vendas_esperadas": 3.91
+    },
+    {
+      "sku": "Q2-024",
+      "semana": 12,
+      "estoque_inicio": 0,
+      "nivel": "esgotado",
+      "preco": NaN,
+      "vendas_esperadas": 0.0
+    }
+  ],
+  "destaques": [
+    {
+      "semana": 1,
+      "sku": "Q2-011",
+      "razao": 1.344,
+      "beneficio_esperado": 465.05,
+      "custo": 345.95,
+      "saldo_orcamento": 4192.97
+    },
+    {
+      "semana": 2,
+      "sku": "Q2-011",
+      "razao": 1.344,
+      "beneficio_esperado": 465.11,
+      "custo": 345.97,
+      "saldo_orcamento": 4192.95
+    },
+    {
+      "semana": 3,
+      "sku": "Q2-011",
+      "razao": 1.346,
+      "beneficio_esperado": 466.35,
+      "custo": 346.47,
+      "saldo_orcamento": 4192.45
+    },
+    {
+      "semana": 4,
+      "sku": "Q2-011",
+      "razao": 1.345,
+      "beneficio_esperado": 465.59,
+      "custo": 346.14,
+      "saldo_orcamento": 4192.78
+    },
+    {
+      "semana": 5,
+      "sku": "Q2-011",
+      "razao": 1.347,
+      "beneficio_esperado": 466.95,
+      "custo": 346.74,
+      "saldo_orcamento": 4192.18
+    },
+    {
+      "semana": 6,
+      "sku": "Q2-011",
+      "razao": 1.35,
+      "beneficio_esperado": 469.16,
+      "custo": 347.64,
+      "saldo_orcamento": 4191.28
+    },
+    {
+      "semana": 7,
+      "sku": "Q2-011",
+      "razao": 1.351,
+      "beneficio_esperado": 470.65,
+      "custo": 348.31,
+      "saldo_orcamento": 4190.61
+    },
+    {
+      "semana": 8,
+      "sku": "Q2-011",
+      "razao": 1.353,
+      "beneficio_esperado": 471.7,
+      "custo": 348.72,
+      "saldo_orcamento": 4190.2
+    },
+    {
+      "semana": 9,
+      "sku": "Q2-011",
+      "razao": 1.35,
+      "beneficio_esperado": 469.28,
+      "custo": 347.7,
+      "saldo_orcamento": 4191.22
+    },
+    {
+      "semana": 10,
+      "sku": "Q2-011",
+      "razao": 1.35,
+      "beneficio_esperado": 470.01,
+      "custo": 348.03,
+      "saldo_orcamento": 4190.89
+    },
+    {
+      "semana": 11,
+      "sku": "Q2-011",
+      "razao": 1.352,
+      "beneficio_esperado": 471.54,
+      "custo": 348.66,
+      "saldo_orcamento": 4190.26
+    },
+    {
+      "semana": 12,
+      "sku": "Q2-011",
+      "razao": 1.352,
+      "beneficio_esperado": 471.53,
+      "custo": 348.65,
+      "saldo_orcamento": 4190.27
+    }
+  ],
+  "gasto_destaques": 4168.982121453817,
+  "validacao": {
+    "Preço atual fixo (1,00)": {
+      "P(pagar semana 4)": 1.0,
+      "P(pagar semana 8)": 1.0,
+      "P(pagar semana 12)": 1.0,
+      "P(pagar as 3 no prazo)": 1.0,
+      "P(falha)": 0.0,
+      "atende_limite_risco": true,
+      "caixa_final_esperado": 54790.530847169604,
+      "caixa_final_P5": 47892.76731353254,
+      "caixa_final_P50": 54898.51679040039,
+      "caixa_final_P95": 61389.84428576324,
+      "receita_esperada": 1632204.69102,
+      "margem_contribuicao_pct": 13.949304404025863,
+      "gasto_promocional": 0.0,
+      "estoque_final_unid_medio": 669.7702,
+      "estoque_final_valor_custo": 281302.53019799996,
+      "cenarios": 5000
+    },
+    "DP": {
+      "P(pagar semana 4)": 1.0,
+      "P(pagar semana 8)": 1.0,
+      "P(pagar semana 12)": 1.0,
+      "P(pagar as 3 no prazo)": 1.0,
+      "P(falha)": 0.0,
+      "atende_limite_risco": true,
+      "caixa_final_esperado": 198150.31199307117,
+      "caixa_final_P5": 181923.16043763346,
+      "caixa_final_P50": 198681.60881778537,
+      "caixa_final_P95": 212762.6341544158,
+      "receita_esperada": 1660053.2808436002,
+      "margem_contribuicao_pct": 22.351148982671017,
+      "gasto_promocional": 0.0,
+      "estoque_final_unid_medio": 916.864,
+      "estoque_final_valor_custo": 386458.753792,
+      "cenarios": 5000
+    },
+    "DP + Greedy": {
+      "P(pagar semana 4)": 1.0,
+      "P(pagar semana 8)": 1.0,
+      "P(pagar semana 12)": 1.0,
+      "P(pagar as 3 no prazo)": 1.0,
+      "P(falha)": 0.0,
+      "atende_limite_risco": true,
+      "caixa_final_esperado": 199682.99750855233,
+      "caixa_final_P5": 182649.66401934985,
+      "caixa_final_P50": 200177.0714967193,
+      "caixa_final_P95": 214822.03781742105,
+      "receita_esperada": 1675240.0428896004,
+      "margem_contribuicao_pct": 22.24001683161207,
+      "gasto_promocional": 4168.982121453817,
+      "estoque_final_unid_medio": 874.1668,
+      "estoque_final_valor_custo": 380110.220692,
+      "cenarios": 5000
+    }
+  },
+  "falhas": {
+    "cenarios_falha": 0,
+    "falhas_por_semana": {
+      "4": 0,
+      "8": 0,
+      "12": 0
+    },
+    "choque_mercado_medio": {
+      "falha": null,
+      "sucesso": 0.00038863750307641955
+    },
+    "fator_concorrente_sem12": {
+      "falha": null,
+      "sucesso": 1.0254899800893311
+    },
+    "fator_logistica_medio": {
+      "falha": null,
+      "sucesso": 1.0001256397673337
+    }
+  },
+  "piores_cenarios": [
+    {
+      "cenario": 3216,
+      "caixa_final": 148846.15,
+      "pagou_sem4": true,
+      "pagou_sem8": true,
+      "pagou_sem12": true,
+      "choque_mercado_medio": -0.538,
+      "fator_concorrente_sem12": 1.036,
+      "fator_logistica_medio": 1.0
+    },
+    {
+      "cenario": 4765,
+      "caixa_final": 157053.3,
+      "pagou_sem4": true,
+      "pagou_sem8": true,
+      "pagou_sem12": true,
+      "choque_mercado_medio": -0.709,
+      "fator_concorrente_sem12": 1.033,
+      "fator_logistica_medio": 1.003
+    },
+    {
+      "cenario": 216,
+      "caixa_final": 159380.86,
+      "pagou_sem4": true,
+      "pagou_sem8": true,
+      "pagou_sem12": true,
+      "choque_mercado_medio": -0.432,
+      "fator_concorrente_sem12": 1.051,
+      "fator_logistica_medio": 0.991
+    },
+    {
+      "cenario": 4980,
+      "caixa_final": 160637.97,
+      "pagou_sem4": true,
+      "pagou_sem8": true,
+      "pagou_sem12": true,
+      "choque_mercado_medio": -0.318,
+      "fator_concorrente_sem12": 0.927,
+      "fator_logistica_medio": 1.0
+    },
+    {
+      "cenario": 4217,
+      "caixa_final": 162417.22,
+      "pagou_sem4": true,
+      "pagou_sem8": true,
+      "pagou_sem12": true,
+      "choque_mercado_medio": 0.22,
+      "fator_concorrente_sem12": 0.984,
+      "fator_logistica_medio": 1.001
+    },
+    {
+      "cenario": 4713,
+      "caixa_final": 163734.33,
+      "pagou_sem4": true,
+      "pagou_sem8": true,
+      "pagou_sem12": true,
+      "choque_mercado_medio": -0.382,
+      "fator_concorrente_sem12": 0.954,
+      "fator_logistica_medio": 1.004
+    },
+    {
+      "cenario": 2817,
+      "caixa_final": 163907.11,
+      "pagou_sem4": true,
+      "pagou_sem8": true,
+      "pagou_sem12": true,
+      "choque_mercado_medio": -0.131,
+      "fator_concorrente_sem12": 0.996,
+      "fator_logistica_medio": 1.005
+    },
+    {
+      "cenario": 1179,
+      "caixa_final": 164151.18,
+      "pagou_sem4": true,
+      "pagou_sem8": true,
+      "pagou_sem12": true,
+      "choque_mercado_medio": 0.048,
+      "fator_concorrente_sem12": 0.942,
+      "fator_logistica_medio": 1.006
+    },
+    {
+      "cenario": 3337,
+      "caixa_final": 164516.66,
+      "pagou_sem4": true,
+      "pagou_sem8": true,
+      "pagou_sem12": true,
+      "choque_mercado_medio": -0.341,
+      "fator_concorrente_sem12": 0.911,
+      "fator_logistica_medio": 0.996
+    },
+    {
+      "cenario": 4365,
+      "caixa_final": 164784.02,
+      "pagou_sem4": true,
+      "pagou_sem8": true,
+      "pagou_sem12": true,
+      "choque_mercado_medio": 0.061,
+      "fator_concorrente_sem12": 0.958,
+      "fator_logistica_medio": 0.996
+    },
+    {
+      "cenario": 2205,
+      "caixa_final": 165068.79,
+      "pagou_sem4": true,
+      "pagou_sem8": true,
+      "pagou_sem12": true,
+      "choque_mercado_medio": -0.032,
+      "fator_concorrente_sem12": 0.98,
+      "fator_logistica_medio": 1.005
+    },
+    {
+      "cenario": 1434,
+      "caixa_final": 165786.92,
+      "pagou_sem4": true,
+      "pagou_sem8": true,
+      "pagou_sem12": true,
+      "choque_mercado_medio": 0.09,
+      "fator_concorrente_sem12": 0.972,
+      "fator_logistica_medio": 1.002
+    },
+    {
+      "cenario": 4910,
+      "caixa_final": 166335.22,
+      "pagou_sem4": true,
+      "pagou_sem8": true,
+      "pagou_sem12": true,
+      "choque_mercado_medio": -0.128,
+      "fator_concorrente_sem12": 0.996,
+      "fator_logistica_medio": 0.995
+    },
+    {
+      "cenario": 4936,
+      "caixa_final": 166565.65,
+      "pagou_sem4": true,
+      "pagou_sem8": true,
+      "pagou_sem12": true,
+      "choque_mercado_medio": 0.107,
+      "fator_concorrente_sem12": 1.017,
+      "fator_logistica_medio": 1.0
+    },
+    {
+      "cenario": 2704,
+      "caixa_final": 166674.64,
+      "pagou_sem4": true,
+      "pagou_sem8": true,
+      "pagou_sem12": true,
+      "choque_mercado_medio": -0.522,
+      "fator_concorrente_sem12": 0.923,
+      "fator_logistica_medio": 0.994
+    },
+    {
+      "cenario": 1495,
+      "caixa_final": 166948.58,
+      "pagou_sem4": true,
+      "pagou_sem8": true,
+      "pagou_sem12": true,
+      "choque_mercado_medio": -0.366,
+      "fator_concorrente_sem12": 0.969,
+      "fator_logistica_medio": 1.002
+    },
+    {
+      "cenario": 3789,
+      "caixa_final": 167338.13,
+      "pagou_sem4": true,
+      "pagou_sem8": true,
+      "pagou_sem12": true,
+      "choque_mercado_medio": -0.112,
+      "fator_concorrente_sem12": 1.052,
+      "fator_logistica_medio": 1.003
+    },
+    {
+      "cenario": 922,
+      "caixa_final": 167854.16,
+      "pagou_sem4": true,
+      "pagou_sem8": true,
+      "pagou_sem12": true,
+      "choque_mercado_medio": 0.0,
+      "fator_concorrente_sem12": 0.919,
+      "fator_logistica_medio": 1.002
+    },
+    {
+      "cenario": 1111,
+      "caixa_final": 167857.42,
+      "pagou_sem4": true,
+      "pagou_sem8": true,
+      "pagou_sem12": true,
+      "choque_mercado_medio": -0.052,
+      "fator_concorrente_sem12": 0.965,
+      "fator_logistica_medio": 0.998
+    },
+    {
+      "cenario": 3968,
+      "caixa_final": 168376.77,
+      "pagou_sem4": true,
+      "pagou_sem8": true,
+      "pagou_sem12": true,
+      "choque_mercado_medio": -0.69,
+      "fator_concorrente_sem12": 0.988,
+      "fator_logistica_medio": 0.994
+    }
+  ],
+  "estresse": [
+    {
+      "multiplicador_dividas": 1.0,
+      "rho_escolhido": 0.0,
+      "P(3 parcelas) — Preço atual fixo (1,00)": 1.0,
+      "P(3 parcelas) — DP": 1.0,
+      "P(3 parcelas) — DP + Greedy": 1.0
+    },
+    {
+      "multiplicador_dividas": 1.25,
+      "rho_escolhido": 0.25,
+      "P(3 parcelas) — Preço atual fixo (1,00)": 0.9614,
+      "P(3 parcelas) — DP": 1.0,
+      "P(3 parcelas) — DP + Greedy": 1.0
+    },
+    {
+      "multiplicador_dividas": 1.5,
+      "rho_escolhido": 0.5,
+      "P(3 parcelas) — Preço atual fixo (1,00)": 0.0,
+      "P(3 parcelas) — DP": 1.0,
+      "P(3 parcelas) — DP + Greedy": 1.0
+    },
+    {
+      "multiplicador_dividas": 1.75,
+      "rho_escolhido": 1.0,
+      "P(3 parcelas) — Preço atual fixo (1,00)": 0.0,
+      "P(3 parcelas) — DP": 1.0,
+      "P(3 parcelas) — DP + Greedy": 1.0
+    },
+    {
+      "multiplicador_dividas": 2.0,
+      "rho_escolhido": 2.0,
+      "P(3 parcelas) — Preço atual fixo (1,00)": 0.0,
+      "P(3 parcelas) — DP": 0.839,
+      "P(3 parcelas) — DP + Greedy": 0.8596
+    },
+    {
+      "multiplicador_dividas": 2.25,
+      "rho_escolhido": 2.0,
+      "P(3 parcelas) — Preço atual fixo (1,00)": 0.0,
+      "P(3 parcelas) — DP": 0.0,
+      "P(3 parcelas) — DP + Greedy": 0.0
+    }
+  ],
+  "tempo_memoria": [
+    {
+      "etapa": "MC construção (sorteio + estatísticas)",
+      "tempo_ms": 747.1119050001107,
+      "memoria_pico_KiB": 55211.484375
+    },
+    {
+      "etapa": "DP (um ρ)",
+      "tempo_ms": 35.939909999910924,
+      "memoria_pico_KiB": 3592.1796875
+    },
+    {
+      "etapa": "Greedy (seleção semanal)",
+      "tempo_ms": 12.323738999953093,
+      "memoria_pico_KiB": 138.8896484375
+    },
+    {
+      "etapa": "MC validação (simulação do plano)",
+      "tempo_ms": 332.18804799992085,
+      "memoria_pico_KiB": 79285.9560546875
+    }
+  ],
+  "desempenho": {
+    "escala": [
+      {
+        "etapa": "Monte Carlo construção (2.000)",
+        "N": 8,
+        "estoque_total": 439,
+        "tempo_s": 0.19781561199999942,
+        "memoria_KiB": 23446.6240234375,
+        "estados": NaN
+      },
+      {
+        "etapa": "Programação Dinâmica",
+        "N": 8,
+        "estoque_total": 439,
+        "tempo_s": 0.0050119300000233125,
+        "memoria_KiB": 172.66796875,
+        "estados": 5364.0
+      },
+      {
+        "etapa": "Greedy (estimativa + seleção)",
+        "N": 8,
+        "estoque_total": 439,
+        "tempo_s": 0.0382359830000496,
+        "memoria_KiB": 13310.0234375,
+        "estados": NaN
+      },
+      {
+        "etapa": "Monte Carlo validação (5.000)",
+        "N": 8,
+        "estoque_total": 439,
+        "tempo_s": 0.04170757099996081,
+        "memoria_KiB": 3947.921875,
+        "estados": NaN
+      },
+      {
+        "etapa": "Monte Carlo construção (2.000)",
+        "N": 16,
+        "estoque_total": 2151,
+        "tempo_s": 0.46297933000005287,
+        "memoria_KiB": 46254.9853515625,
+        "estados": NaN
+      },
+      {
+        "etapa": "Programação Dinâmica",
+        "N": 16,
+        "estoque_total": 2151,
+        "tempo_s": 0.03113114999996469,
+        "memoria_KiB": 3560.9140625,
+        "estados": 26004.0
+      },
+      {
+        "etapa": "Greedy (estimativa + seleção)",
+        "N": 16,
+        "estoque_total": 2151,
+        "tempo_s": 0.056196010000007846,
+        "memoria_KiB": 26375.2109375,
+        "estados": NaN
+      },
+      {
+        "etapa": "Monte Carlo validação (5.000)",
+        "N": 16,
+        "estoque_total": 2151,
+        "tempo_s": 0.09882766600003379,
+        "memoria_KiB": 7073.95703125,
+        "estados": NaN
+      },
+      {
+        "etapa": "Monte Carlo construção (2.000)",
+        "N": 24,
+        "estoque_total": 2842,
+        "tempo_s": 0.6774261190000743,
+        "memoria_KiB": 68904.7080078125,
+        "estados": NaN
+      },
+      {
+        "etapa": "Programação Dinâmica",
+        "N": 24,
+        "estoque_total": 2842,
+        "tempo_s": 0.048072473000047466,
+        "memoria_KiB": 3592.1796875,
+        "estados": 34392.0
+      },
+      {
+        "etapa": "Greedy (estimativa + seleção)",
+        "N": 24,
+        "estoque_total": 2842,
+        "tempo_s": 0.08130173900008231,
+        "memoria_KiB": 39440.3359375,
+        "estados": NaN
+      },
+      {
+        "etapa": "Monte Carlo validação (5.000)",
+        "N": 24,
+        "estoque_total": 2842,
+        "tempo_s": 0.1282653590000109,
+        "memoria_KiB": 10199.921875,
+        "estados": NaN
+      },
+      {
+        "etapa": "Monte Carlo construção (2.000)",
+        "N": 48,
+        "estoque_total": 5684,
+        "tempo_s": 1.3082499140000436,
+        "memoria_KiB": 137005.1767578125,
+        "estados": NaN
+      },
+      {
+        "etapa": "Programação Dinâmica",
+        "N": 48,
+        "estoque_total": 5684,
+        "tempo_s": 0.07595913700004076,
+        "memoria_KiB": 4314.0390625,
+        "estados": 68784.0
+      },
+      {
+        "etapa": "Greedy (estimativa + seleção)",
+        "N": 48,
+        "estoque_total": 5684,
+        "tempo_s": 0.1404741459999741,
+        "memoria_KiB": 78635.8984375,
+        "estados": NaN
+      },
+      {
+        "etapa": "Monte Carlo validação (5.000)",
+        "N": 48,
+        "estoque_total": 5684,
+        "tempo_s": 0.252032397999983,
+        "memoria_KiB": 19577.83203125,
+        "estados": NaN
+      }
+    ],
+    "mc": [
+      {
+        "cenarios": 1000,
+        "tempo_s": 0.24227266599996256,
+        "memoria_KiB": 34764.9072265625
+      },
+      {
+        "cenarios": 2000,
+        "tempo_s": 0.5309099210001023,
+        "memoria_KiB": 68899.4541015625
+      },
+      {
+        "cenarios": 5000,
+        "tempo_s": 1.8660108509999418,
+        "memoria_KiB": 170823.1650390625
+      },
+      {
+        "cenarios": 10000,
+        "tempo_s": 3.422248864999915,
+        "memoria_KiB": 341001.7587890625
+      }
+    ],
+    "reuso": [
+      {
+        "sku": "Q2-005",
+        "estoque": 27,
+        "valor_bottom_up": 4552.519342579524,
+        "valor_top_down": 4552.519342579522,
+        "iguais": true,
+        "subproblemas_distintos": 322,
+        "reutilizacoes_cache": 21154,
+        "tempo_bottom_up_s": 0.0006138979999832372,
+        "tempo_top_down_s": 0.016433879000032903
+      },
+      {
+        "sku": "Q2-007",
+        "estoque": 32,
+        "valor_bottom_up": 13824.225944623233,
+        "valor_top_down": 13824.225944623233,
+        "iguais": true,
+        "subproblemas_distintos": 373,
+        "reutilizacoes_cache": 25477,
+        "tempo_bottom_up_s": 0.0009036669999886726,
+        "tempo_top_down_s": 0.028396471000064594
+      },
+      {
+        "sku": "Q2-004",
+        "estoque": 39,
+        "valor_bottom_up": 7930.325438249648,
+        "valor_top_down": 7930.325438249647,
+        "iguais": true,
+        "subproblemas_distintos": 439,
+        "reutilizacoes_cache": 29630,
+        "tempo_bottom_up_s": 0.0010071479999851363,
+        "tempo_top_down_s": 0.023308767999992597
+      }
+    ]
+  }
+}
